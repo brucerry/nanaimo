@@ -23,6 +23,7 @@ $tcc=Join-Path $development 'tools\tcc\tcc.exe'
 if($LASTEXITCODE){throw 'Native dungeon bridge build failed'}
 dotnet publish (Join-Path $source 'managed-host\Nanaimo.Server.csproj') -c Release -f $variant[0] -r "win-$Architecture" --self-contained true -o $output --nologo
 if($LASTEXITCODE){throw 'Managed gameplay build failed'}
+& (Join-Path $development 'tools\prune-windows-runtimes.ps1') -Destination $output
 if($variant[0] -eq 'net6.0') { & (Join-Path $development 'tools\copy-win7-runtime.ps1') -Destination $output -Architecture $Architecture }
 $manifest=[ordered]@{version=1; files=@()}
 $manifest.files=@(Get-ChildItem -LiteralPath $output -Recurse -File | Where-Object {

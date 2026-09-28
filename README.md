@@ -5,6 +5,12 @@
 
 A local Windows game with a C# launcher, managed gameplay server, and native dungeon bridge.
 
+## Gameplay
+
+| Village tutorial | Air battle |
+| --- | --- |
+| ![Character arriving in the village and meeting the guide](media/village-tutorial.gif) | ![Character flying and shooting in an air battle](media/air-battle.gif) |
+
 ---
 
 ## Play

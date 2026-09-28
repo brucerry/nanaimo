@@ -1,0 +1,4 @@
+opencc-python-reimplemented==0.1.7
+pycryptodome==3.23.0
+Pillow==12.3.0
+opencv-python==5.0.0.93

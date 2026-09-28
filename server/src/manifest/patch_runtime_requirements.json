@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "purpose": "runtime_dependency_requirements",
+  "official_baseline_verified": false,
+  "runtime_acceptance": false,
+  "binary_delta_implemented": false,
+  "complete_playable_game": false,
+  "runtime_status": "blocked",
+  "blocked_dependencies": [
+    {
+      "path": "game.exe",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied client executable must match the runtime checks. Client executables and client patch generation are outside this exporter."
+    },
+    {
+      "path": "Village_map_image/Village_map_image.pack",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    },
+    {
+      "path": "flying/hd0_ep22_dg00_st01.sstg",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    },
+    {
+      "path": "flying/hd0_ep22_dg01_st01.sstg",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    },
+    {
+      "path": "flying/pon/mis_ep22_dg01_m_196.pon",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    },
+    {
+      "path": "flying/pon/mis_ep22_dg01_m_196_02.pon",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    },
+    {
+      "path": "flying/pon/nanaimo_cmp_005_0024.pon",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    },
+    {
+      "path": "flying/pon/nanaimo_cmp_005_0025.pon",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    },
+    {
+      "path": "flying/pon/nanaimo_cmp_005_0026.pon",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    },
+    {
+      "path": "flying/pon/nanaimo_cmp_005_0027.pon",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    },
+    {
+      "path": "flying/pon/nanaimo_cmp_005_0028.pon",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    },
+    {
+      "path": "flying/pon/nanaimo_cmp_005_0029.pon",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    },
+    {
+      "path": "flying/pon/nanaimo_mov_009_0000.pon",
+      "required_for_current_runtime": true,
+      "status": "blocked",
+      "export": "never_by_this_exporter",
+      "reason": "User-supplied game resource must match the launcher resource checks; not an export payload."
+    }
+  ],
+  "provided_in_repository": [
+    {
+      "path": "gui_launcher/data/equipment.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/inventory_cards.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/inventory_catalog_summary.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/inventory_clothing.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/inventory_furniture.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/inventory_game_items.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/inventory_pet_gems.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/inventory_pets.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/pet_attack_modes.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/pets.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/resource_patches/superboss_projectile_alias.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/previews/equipment_icons.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/previews/equipment_icons.png",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/previews/pet_icons.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/previews/pet_icons.png",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    },
+    {
+      "path": "gui_launcher/data/previews/preview_summary.json",
+      "bundled_in_repository": true,
+      "reason": "Bundled in the repository at the rights holder's direction; previously declared as separately supplied."
+    }
+  ],
+  "never_export": [
+    "manifest/package_files.tsv",
+    "official client exe and DLLs",
+    "official asset packs/audio/art/stages and derived previews",
+    "resource_patches local installation registry",
+    "state/log/build/private/backups/evidence/snapshots",
+    "bundled installers and Python pip wheels"
+  ]
+}

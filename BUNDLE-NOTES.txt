@@ -1,0 +1,12 @@
+Nanaimo workspace
+
+Open README.md for player and developer instructions.
+Play: client/Start-Game.exe
+Server source and tools: server/
+Launcher source: launcher/
+Editable game language: localization/zh-HK/
+
+This bundle combines managed gameplay with the original native dungeon framework.
+The original bundle note attributes the assembled version to Lan Mo and the native
+dungeon framework to Wo Ai Luo. These are upstream attributions, not claims of
+authorship by the maintainers of this language cleanup.

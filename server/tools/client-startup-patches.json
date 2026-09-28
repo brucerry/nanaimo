@@ -1,0 +1,165 @@
+{
+  "path": "client/game.exe",
+  "original_sha256": "2e63762e7d0c0b7ddc9d54b9e66b80062750b16cdda6417e5ed511d462800834",
+  "previous_sha256": "ed2780739046a421971ad6a5824fc6371837c842d2d3d9a610d9a955c3a9df1f",
+  "patched_sha256": "88fd0669c527ae637c0f942594ca65befa9bffb6713e5df6cf85facb289509dc",
+  "patches": [
+    {
+      "va": "0x93223b",
+      "offset": 5448251,
+      "before_hex": "6844010000e88757210083c4048985c4ebffffc645fc0283bdc4ebffff0074138b8dc4ebffffe89a9baeff8985bcebffffeb0ac785bcebffff000000008b8dbcebffff898dc8ebffffc645fc018b95c0ebffff8b85c8ebffff8942206a00682c01000068900100006a00688882cb008b8dc0ebffff8b4920e87a1fadff",
+      "after_hex": "9090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+      "reason": "Remove cover allocation, construction, loading, and assignment."
+    },
+    {
+      "va": "0xa66c17",
+      "offset": 6712343,
+      "before_hex": "6844010000e8ab0d0e0083c4048945ecc645fc02837dec00740d8b4dece8c7519bff8945e4eb07c745e4000000008b55e48955f0c645fc018b45e88b4df08948206a00682c01000068900100006a006874accc008b55e88b4a20e8bcd599ff",
+      "after_hex": "9090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+      "reason": "Remove cover allocation, construction, loading, and assignment."
+    },
+    {
+      "va": "0xa6782b",
+      "offset": 6715435,
+      "before_hex": "6844010000e897010e0083c404898574feffffc645fc0283bd74feffff0074138b8d74feffffe8aa459bff89856cfeffffeb0ac7856cfeffff000000008b956cfeffff899578feffffc645fc018b8570feffff8b8d78feffff8948206a00682c01000068900100006a0068b4afcc008b9570feffff8b4a20e88ac999ff",
+      "after_hex": "9090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+      "reason": "Remove cover allocation, construction, loading, and assignment."
+    },
+    {
+      "va": "0x9325b5",
+      "offset": 5449141,
+      "before_hex": "c645ff008b45c08378200074148b4dc08b4920e85d32aeff83f8027504c645ff01",
+      "after_hex": "c645ff019090909090909090909090909090909090909090909090909090909090",
+      "reason": "Remove cover polling; login transition is ready immediately."
+    },
+    {
+      "va": "0xa67073",
+      "offset": 6713459,
+      "before_hex": "c645ff008b45c08378200074148b4dc08b4920e89fe79aff83f8027504c645ff01",
+      "after_hex": "c645ff019090909090909090909090909090909090909090909090909090909090",
+      "reason": "Remove cover polling; login transition is ready immediately."
+    },
+    {
+      "va": "0xa67abc",
+      "offset": 6716092,
+      "before_hex": "c645f3008b459c8378200074148b4d9c8b4920e856dd9aff83f8027504c645f301",
+      "after_hex": "c645f3019090909090909090909090909090909090909090909090909090909090",
+      "reason": "Remove cover polling; login transition is ready immediately."
+    },
+    {
+      "va": "0x932966",
+      "offset": 5450086,
+      "before_hex": "8b45fc8378200074138b4dfc8b51208b45fc8b48208b128b4214ffd0",
+      "after_hex": "90909090909090909090909090909090909090909090909090909090",
+      "reason": "Remove all cover drawing instructions, including the former skip branch."
+    },
+    {
+      "va": "0xa67486",
+      "offset": 6714502,
+      "before_hex": "8b45fc8378200074138b4dfc8b51208b45fc8b48208b128b4214ffd0",
+      "after_hex": "90909090909090909090909090909090909090909090909090909090",
+      "reason": "Remove all cover drawing instructions, including the former skip branch."
+    },
+    {
+      "va": "0xa67f56",
+      "offset": 6717270,
+      "before_hex": "8b45fc8378200074138b4dfc8b51208b45fc8b48208b128b4214ffd0",
+      "after_hex": "90909090909090909090909090909090909090909090909090909090",
+      "reason": "Remove all cover drawing instructions, including the former skip branch."
+    },
+    {
+      "va": "0xcb8288",
+      "offset": 9142920,
+      "before_hex": "6c6f67696e5c636f72705f6c6f676f2e65666600",
+      "after_hex": "0000000000000000000000000000000000000000",
+      "reason": "Remove unused cover resource path."
+    },
+    {
+      "va": "0xccac74",
+      "offset": 9219188,
+      "before_hex": "6c6f67696e5c636f72705f6c6f676f2e65666600",
+      "after_hex": "0000000000000000000000000000000000000000",
+      "reason": "Remove unused cover resource path."
+    },
+    {
+      "va": "0xccafb4",
+      "offset": 9220020,
+      "before_hex": "6c6f67696e5c636f72705f6c6f676f2e65666600",
+      "after_hex": "0000000000000000000000000000000000000000",
+      "reason": "Remove unused cover resource path."
+    },
+    {
+      "va": "0xa67467",
+      "offset": 6714471,
+      "before_hex": "68ffffff00",
+      "after_hex": "6800000000",
+      "reason": "Clear the initial frame to black."
+    },
+    {
+      "va": "0xa67f37",
+      "offset": 6717239,
+      "before_hex": "68ffffff00",
+      "after_hex": "6800000000",
+      "reason": "Clear the initial frame to black."
+    },
+    {
+      "va": "0x41fc00",
+      "offset": 130048,
+      "before_hex": "cccccccccccccccccccccccccccc",
+      "after_hex": "c744242486000000ff257c1cd900",
+      "reason": "Set GB2312_CHARSET in the client font factory, then call CreateFontA."
+    },
+    {
+      "va": "0xac9e1a",
+      "offset": 7118362,
+      "before_hex": "ff157c1cd900",
+      "after_hex": "e8e15d95ff90",
+      "reason": "Use the explicit GBK font charset for ANSI dialogue rendering."
+    },
+    {
+      "va": "0xacb807",
+      "offset": 7124999,
+      "before_hex": "ff157c1cd900",
+      "after_hex": "e8f44395ff90",
+      "reason": "Use the explicit GBK font charset for ANSI dialogue rendering."
+    },
+    {
+      "va": "0xacbc76",
+      "offset": 7126134,
+      "before_hex": "ff157c1cd900",
+      "after_hex": "e8853f95ff90",
+      "reason": "Use the explicit GBK font charset for ANSI dialogue rendering."
+    },
+    {
+      "offset": 10061228,
+      "va": "0xd985ac",
+      "description": "Replace the publisher window title with the current game name",
+      "before_hex": "51005100db984c88f65c",
+      "after_hex": "ff62ff62a38d00000000"
+    },
+    {
+      "offset": 10061368,
+      "va": "0xd98638",
+      "description": "Replace the publisher window title with the current game name",
+      "before_hex": "51005100db984c88f65c",
+      "after_hex": "ff62ff62a38d00000000"
+    },
+    {
+      "offset": 10061632,
+      "va": "0xd98740",
+      "description": "Replace the publisher window title with the current game name",
+      "before_hex": "51005100db984c88f65c",
+      "after_hex": "ff62ff62a38d00000000"
+    }
+  ],
+  "remove_assets": [
+    "client/effs/Login/corp_logo.eff",
+    "client/effs/Login/corp_logo.im3",
+    "client/effs/Login/corp_logo_base.im3",
+    "client/effs/Login/corp_logo_class.im3"
+  ],
+  "previous_versions": [
+    "9b1415c207e54e72107452a246108acd29fd1ed071644f52b4ea563da92a4483",
+    "298c8c11c64f28fa5901a2b666cb5197e97450929f3fafaea4702aaa2089ace4"
+  ]
+}

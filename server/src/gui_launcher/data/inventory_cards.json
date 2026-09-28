@@ -1,0 +1,3362 @@
+[
+  {
+    "id": 13000001,
+    "name": "R01_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 幸運草(怪物掉卡率提高爲100%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000002,
+    "name": "R02_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 糖果",
+    "result": "提高自身的hp＋300",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000003,
+    "name": "R03_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1000金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000004,
+    "name": "R04_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於300金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000005,
+    "name": "R05_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+300)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000006,
+    "name": "R06_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 藍寶石(金幣獲得率 +6%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000007,
+    "name": "R07_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的藍牙妖精(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000008,
+    "name": "R08_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的藍牙妖精(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000009,
+    "name": "R09_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 詛咒(怪物的防禦力減少50%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000010,
+    "name": "R10_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+9)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000011,
+    "name": "R11_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1100金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000012,
+    "name": "R12_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+2)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000013,
+    "name": "R13_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000014,
+    "name": "R14_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水30",
+    "result": "提高自身的mp＋30",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000015,
+    "name": "R15_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於400金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000016,
+    "name": "R16_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的浣熊(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000017,
+    "name": "R17_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 盾牌(7秒保護模)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000018,
+    "name": "R18_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的浣熊(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000019,
+    "name": "R19_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 加速器(提高速度25秒)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000020,
+    "name": "R20_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水40",
+    "result": "提高自身的mp＋40",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000021,
+    "name": "O01_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1300金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000022,
+    "name": "O02_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於500金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000023,
+    "name": "O03_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 搖錢樹(擊敗怪物獲得的金幣量提高到120％)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000024,
+    "name": "O04_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+400)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000025,
+    "name": "O05_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水70",
+    "result": "提高自身的mp＋70",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000026,
+    "name": "O06_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的松鼠(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000027,
+    "name": "O07_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的松鼠(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000028,
+    "name": "O08_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 干擾彈(暫時讓怪物的子彈跟蹤消失)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000029,
+    "name": "O09_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1200金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000030,
+    "name": "O10_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於700金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000031,
+    "name": "O11_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+5%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000032,
+    "name": "O12_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水50",
+    "result": "提高自身的mp＋50",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000033,
+    "name": "O13_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 盾牌(6秒保護模)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000034,
+    "name": "O14_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的紫色兔子(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000035,
+    "name": "O15_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於600金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000036,
+    "name": "O16_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 琥珀(mp+70)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000037,
+    "name": "O17_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的紫色兔子(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000038,
+    "name": "O18_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 藍寶石(金幣獲得率 +3%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000039,
+    "name": "O19_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 虛弱彈(對怪物的傷害提高50％)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000040,
+    "name": "O20_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 冰淇淋",
+    "result": "提高自身的hp＋800",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000041,
+    "name": "Y01_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1600金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000042,
+    "name": "Y02_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 月光石(防禦+11)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000043,
+    "name": "Y03_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+620)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000044,
+    "name": "Y04_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蛋糕",
+    "result": "提高自身的hp＋500",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000045,
+    "name": "Y05_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 藍碧璽(速度+1)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000046,
+    "name": "Y06_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 虛弱彈(對怪物的傷害提高50％)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000047,
+    "name": "Y07_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 詛咒(怪物的防禦力減少50%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000048,
+    "name": "Y08_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+10)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000049,
+    "name": "Y09_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的小臘腸犬(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000050,
+    "name": "Y10_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的小臘腸犬(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000051,
+    "name": "Y11_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000052,
+    "name": "Y12_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1400金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000053,
+    "name": "Y13_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於2000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000054,
+    "name": "Y14_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於800金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000055,
+    "name": "Y15_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的小斑點狗(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000056,
+    "name": "Y16_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 三角飯糰",
+    "result": "提高自身的hp＋600",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000057,
+    "name": "Y17_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 雙重能量(一次雙重發射)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000058,
+    "name": "Y18_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 盾牌(4秒保護模)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000059,
+    "name": "Y19_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的小斑點狗(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000060,
+    "name": "Y20_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水60",
+    "result": "提高自身的mp＋60",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000061,
+    "name": "G01_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於2500金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000062,
+    "name": "G02_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蜂蜜",
+    "result": "提高自身的hp＋400",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000063,
+    "name": "G03_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 穿透彈(4秒內可以穿過任何障礙物)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000064,
+    "name": "G04_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1900金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000065,
+    "name": "G05_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+500)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000066,
+    "name": "G06_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000067,
+    "name": "G07_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的饞嘴貓(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000068,
+    "name": "G08_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的饞嘴貓(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000069,
+    "name": "G09_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲耍寶小獼猴(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000070,
+    "name": "G10_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 月光石(防禦+35)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000071,
+    "name": "G11_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+6)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000072,
+    "name": "G12_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1500金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000073,
+    "name": "G13_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲耍寶小獼猴(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000074,
+    "name": "G14_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 幸運草(怪物掉卡率100%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000075,
+    "name": "G15_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 巧克力派",
+    "result": "提高自身的hp＋1000",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000076,
+    "name": "G16_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於900金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000077,
+    "name": "G17_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 加速器(提高速度40秒)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000078,
+    "name": "G18_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 月光石(防禦+14)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000079,
+    "name": "G19_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 盾牌(5秒保護模)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000080,
+    "name": "G20_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水80",
+    "result": "提高自身的mp＋80",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000081,
+    "name": "C01_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 月光石(防禦+17)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000082,
+    "name": "C02_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於2500金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000083,
+    "name": "C03_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 加速器(提高速度15秒)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000084,
+    "name": "C04_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2500金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000085,
+    "name": "C05_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水130",
+    "result": "提高自身的mp＋130",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000086,
+    "name": "C06_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的堅毅的老綿羊(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000087,
+    "name": "C07_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+11)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000088,
+    "name": "C08_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 清除彈(怪物屬性消失)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000089,
+    "name": "C09_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1700金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000090,
+    "name": "C10_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+4)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000091,
+    "name": "C11_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 琥珀(mp+60)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000092,
+    "name": "C12_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 搖錢樹(擊敗怪物獲得的金幣量提高到120％)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000093,
+    "name": "C13_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的堅毅的老綿羊(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000094,
+    "name": "C14_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000095,
+    "name": "C15_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 荷包蛋",
+    "result": "提高自身的hp＋1100",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000096,
+    "name": "C16_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 穿透彈(7秒內可以穿過任何障礙物)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000097,
+    "name": "C17_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1100金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000098,
+    "name": "C18_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的伶俐的考拉(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000099,
+    "name": "C19_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的伶俐的考拉(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000100,
+    "name": "C20_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水90",
+    "result": "提高自身的mp＋90",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000101,
+    "name": "B01_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2800金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000102,
+    "name": "B02_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 干擾彈(暫時讓怪物的子彈跟蹤消失)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000103,
+    "name": "B03_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 甜甜圈",
+    "result": "提高自身的hp＋700",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000104,
+    "name": "B04_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+700)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000105,
+    "name": "B05_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1200金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000106,
+    "name": "B06_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+12)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000107,
+    "name": "B07_屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000108,
+    "name": "B08_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的帥帥的哈士奇(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000109,
+    "name": "B09_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1300金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000110,
+    "name": "B10_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1800金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000111,
+    "name": "B11_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的帥帥的哈士奇(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000112,
+    "name": "B12_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 巧克力",
+    "result": "提高自身的hp＋900",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000113,
+    "name": "B13_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 穿透彈(6秒內可以穿過任何障礙物)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000114,
+    "name": "B14_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的小犬狼(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000115,
+    "name": "B15_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的小犬狼(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000116,
+    "name": "B16_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+5)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000117,
+    "name": "B17_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+1200)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000118,
+    "name": "B18_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 加速器(提高速度30秒)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000119,
+    "name": "B19_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1400金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000120,
+    "name": "B20_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水100",
+    "result": "提高自身的mp＋100",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000121,
+    "name": "V01_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1200金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000122,
+    "name": "V02_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的火狐狸(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000123,
+    "name": "V03_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 加速器(提高速度20秒)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000124,
+    "name": "V04_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 草莓牛奶",
+    "result": "提高自身的hp＋1200",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000125,
+    "name": "V05_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2800金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000126,
+    "name": "V06_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+13)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000127,
+    "name": "V07_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於3000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000128,
+    "name": "V08_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2000金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000129,
+    "name": "V09_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 炸蝦",
+    "result": "提高自身的hp＋1300",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000130,
+    "name": "V10_屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000131,
+    "name": "V11_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 月光石(防禦+10)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000132,
+    "name": "V12_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的火狐狸(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000133,
+    "name": "V13_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的梅花鹿(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000134,
+    "name": "V14_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 盾牌(9秒保護模)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000135,
+    "name": "V15_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+7)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000136,
+    "name": "V16_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1600金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000137,
+    "name": "V17_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 穿透彈(8秒內可以穿過任何障礙物)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000138,
+    "name": "V18_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的梅花鹿(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000139,
+    "name": "V19_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+780)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000140,
+    "name": "V20_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水110",
+    "result": "提高自身的mp＋110",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000141,
+    "name": "P01_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2500金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000142,
+    "name": "P02_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的大袋鼠(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000143,
+    "name": "P03_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+8)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000144,
+    "name": "P04_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+15)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000145,
+    "name": "P05_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 虛弱彈(對怪物的傷害提高50％)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000146,
+    "name": "P06_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水150",
+    "result": "提高自身的mp＋150",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000147,
+    "name": "P07_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+900)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000148,
+    "name": "P08_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 加速器(提高速度35秒)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000149,
+    "name": "P09_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於2500金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000150,
+    "name": "P10_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2100金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000151,
+    "name": "P11_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的大袋鼠(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000152,
+    "name": "P12_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1200金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000153,
+    "name": "P13_屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000154,
+    "name": "P14_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 詛咒(怪物的防禦力減少50%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000155,
+    "name": "P15_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1700金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000156,
+    "name": "P16_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的會飛的鴕鳥(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000157,
+    "name": "P17_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 黑曜石(屬性卡片獲得率 +1%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000158,
+    "name": "P18_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 紫菜包飯",
+    "result": "提高自身的hp＋1400",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000159,
+    "name": "P19_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的會飛的鴕鳥(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000160,
+    "name": "P20_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水120",
+    "result": "提高自身的mp＋120",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000161,
+    "name": "E01_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 石榴石(mp吸收 0.1%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000162,
+    "name": "E02_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 雙重能量(一次雙重發射)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000163,
+    "name": "E03_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於4000金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000164,
+    "name": "E04_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000165,
+    "name": "E05_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+14)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000166,
+    "name": "E06_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2200金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000167,
+    "name": "E07_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的勤奮的野豬(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000168,
+    "name": "E08_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於2000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000169,
+    "name": "E09_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1800金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000170,
+    "name": "E10_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 月光石(防禦+23)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000171,
+    "name": "E11_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 干擾彈(暫時讓怪物的子彈跟蹤消失)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000172,
+    "name": "E12_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的勤奮的野豬(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000173,
+    "name": "E13_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水260",
+    "result": "提高自身的mp＋260",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000174,
+    "name": "E14_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紫水晶(hp吸收 0.3%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000175,
+    "name": "E15_屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000176,
+    "name": "E16_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 穿透彈(9秒內可以穿過任何障礙物)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000177,
+    "name": "E17_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的金錢豹(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000178,
+    "name": "E18_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的金錢豹(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000179,
+    "name": "E19_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 牛肉",
+    "result": "提高自身的hp＋1500",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000180,
+    "name": "E20_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水140",
+    "result": "提高自身的mp＋140",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000181,
+    "name": "A01_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1600金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000182,
+    "name": "A02_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於300金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000183,
+    "name": "A03_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 清除彈(怪物屬性消失)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000184,
+    "name": "A04_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的大嘴鷹(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000185,
+    "name": "A05_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的大嘴鷹(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000186,
+    "name": "A06_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 奶酪",
+    "result": "提高自身的hp＋1600",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000187,
+    "name": "A07_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1500金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000188,
+    "name": "A08_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的河馬(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000189,
+    "name": "A09_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+1000)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000190,
+    "name": "A10_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紫水晶(hp吸收 0.6%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000191,
+    "name": "A11_寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的河馬(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000192,
+    "name": "A12_裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2300金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000193,
+    "name": "A13_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 幸運草(怪物掉卡率提高爲100%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000194,
+    "name": "A14_NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1900金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000195,
+    "name": "A15_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 藍碧璽(速度+2)",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000196,
+    "name": "A16_屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000197,
+    "name": "A17_天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 搖錢樹(擊敗怪物獲得的金幣量提高到120%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000198,
+    "name": "A18_能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 黑曜石(屬性卡片獲得率 +1%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000199,
+    "name": "A19_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蟹黃小籠",
+    "result": "提高自身的hp＋1700",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000200,
+    "name": "A20_食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水160",
+    "result": "提高自身的mp＋160",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000201,
+    "name": "U01_黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末100g",
+    "result": "對應寵物：藍牙妖精/浣熊",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000202,
+    "name": "U02_黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末200g",
+    "result": "對應寵物：松鼠/紫色兔子",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000203,
+    "name": "U03_黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末300g",
+    "result": "對應寵物：小臘腸犬/小斑點狗",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000204,
+    "name": "U04_黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末400g",
+    "result": "對應寵物：饞嘴貓/耍寶小獼猴",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000205,
+    "name": "U05_黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末500g",
+    "result": "對應寵物：堅毅的老綿羊/伶俐的考拉",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000206,
+    "name": "U06_黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末600g",
+    "result": "對應寵物：帥帥的哈士奇/小犬狼",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000207,
+    "name": "U07_黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末700g",
+    "result": "對應寵物：火狐狸/梅花鹿",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000208,
+    "name": "U08_黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末800g",
+    "result": "對應寵物：大袋鼠/會飛的鴕鳥",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000209,
+    "name": "U09_黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末900g",
+    "result": "對應寵物：勤奮的野豬/金錢豹",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000210,
+    "name": "U10_黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末1000g",
+    "result": "對應寵物：大嘴鷹/河馬",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000211,
+    "name": "R01*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 搖錢樹(擊敗怪物獲得的金幣量提高到120%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000212,
+    "name": "R02*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 穿透彈(8秒內可以通過任何障礙物)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000213,
+    "name": "R03*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於400金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000214,
+    "name": "R04*屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000215,
+    "name": "R05*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+700, mp+70)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000216,
+    "name": "R06*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: QQ汽水B",
+    "result": "提高自身的hp＋1200, mp＋110",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000217,
+    "name": "R07*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1000金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000218,
+    "name": "R08*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+6%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000219,
+    "name": "R09*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1800金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000220,
+    "name": "R10*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+620, mp+60)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000221,
+    "name": "R11*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+1600)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000222,
+    "name": "R12*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3200金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000223,
+    "name": "R13*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於600金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000224,
+    "name": "R14*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的綠毛象(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000225,
+    "name": "R15*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的綠毛象(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000226,
+    "name": "R16*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的白角野牛(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000227,
+    "name": "R17*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的白角野牛(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000228,
+    "name": "R18*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的東北黑熊(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000229,
+    "name": "R19*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的東北黑熊(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000230,
+    "name": "R20*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: QQ汽水B",
+    "result": "提高自身的hp＋1400, mp＋130",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000231,
+    "name": "O01*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 詛咒(怪物的防禦力減少50%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000232,
+    "name": "O02*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+780, mp+70)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000233,
+    "name": "O03*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1000金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000234,
+    "name": "O04*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+900, mp+90)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000235,
+    "name": "O05*天空之翼",
+    "description": "合成遊戲道具的卡片(未開放)",
+    "effect": "合成道具: 變身寵物(可變身一回)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000236,
+    "name": "O06*屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000237,
+    "name": "O07*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 琥珀(mp+100)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000238,
+    "name": "O08*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2000金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000239,
+    "name": "O09*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水180",
+    "result": "提高自身的mp＋180",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000240,
+    "name": "O10*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 月光石(防禦+25)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000241,
+    "name": "O11*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1800金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000242,
+    "name": "O12*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3200金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000243,
+    "name": "O13*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於800金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000244,
+    "name": "O14*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的沉默的犀牛(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000245,
+    "name": "O15*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的沉默的犀牛(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000246,
+    "name": "O16*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的金剛(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000247,
+    "name": "O17*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的金剛(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000248,
+    "name": "O18*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的大老虎(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000249,
+    "name": "O19*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的大老虎(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000250,
+    "name": "O20*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 脆餅",
+    "result": "提高自身的hp＋2000",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000251,
+    "name": "Y01*天空之翼",
+    "description": "合成遊戲道具的卡片(未開放)",
+    "effect": "合成道具: 三重發射彈(1次性三重發射)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000252,
+    "name": "Y02*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 加速器(提高速度40秒)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000253,
+    "name": "Y03*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於700金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000254,
+    "name": "Y04*屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000255,
+    "name": "Y05*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+400, 防禦+15)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000256,
+    "name": "Y06*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 海螺",
+    "result": "提高自身的hp＋2160",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000257,
+    "name": "Y07*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1600金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000258,
+    "name": "Y08*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 藍碧璽(金幣獲得率 +7%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000259,
+    "name": "Y09*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2200金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000260,
+    "name": "Y10*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+300, 防禦+17)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000261,
+    "name": "Y11*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+17)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000262,
+    "name": "Y12*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3500金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000263,
+    "name": "Y13*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1200金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000264,
+    "name": "Y14*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的獅子王(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000265,
+    "name": "Y15*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的獅子王(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000266,
+    "name": "Y16*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的白頭鷹(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000267,
+    "name": "Y17*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的白頭鷹(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000268,
+    "name": "Y18*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的神祕雪怪(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000269,
+    "name": "Y19*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的神祕雪怪(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000270,
+    "name": "Y20*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水230",
+    "result": "提高自身的mp＋230",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000271,
+    "name": "G01*天空之翼",
+    "description": "合成遊戲道具的卡片(未開放)",
+    "effect": "合成道具: 幸運(怪物掉卡片率120%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000272,
+    "name": "G02*天空之翼",
+    "description": "合成遊戲道具的卡片(未開放)",
+    "effect": "合成道具: 機會(挑戰時經驗值1.2倍)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000273,
+    "name": "G03*屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000274,
+    "name": "G04*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 黑曜石(屬性卡片獲得率 +1%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000275,
+    "name": "G05*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+400, 攻擊+16)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000276,
+    "name": "G06*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: QQ汽水B",
+    "result": "提高自身的hp＋1600, mp＋150",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000277,
+    "name": "G07*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 石榴石(mp吸收 0.2%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000278,
+    "name": "G08*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於2000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000279,
+    "name": "G09*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2400金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000280,
+    "name": "G10*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+300, 攻擊+15)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000281,
+    "name": "G11*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於1600金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000282,
+    "name": "G12*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3500金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000283,
+    "name": "G13*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1400金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000284,
+    "name": "G14*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的啄木鳥(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000285,
+    "name": "G15*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的啄木鳥(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000286,
+    "name": "G16*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的猛獁(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000287,
+    "name": "G17*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的猛獁(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000288,
+    "name": "G18*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的劍齒虎(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000289,
+    "name": "G19*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的劍齒虎(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000290,
+    "name": "G20*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: QQ汽水B",
+    "result": "提高自身的hp＋1700, mp＋160",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000291,
+    "name": "C01*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 虛弱彈(增加50%傷害）",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000292,
+    "name": "C02*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 盾牌(8秒保護模)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000293,
+    "name": "C03*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石（mp+70，防禦+14）",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000294,
+    "name": "C04*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 藍碧璽(速度+3)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000295,
+    "name": "C05*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石（mp+90，防禦+15）",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000296,
+    "name": "C06*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: QQ汽水B",
+    "result": "提高自身的hp＋1800, mp＋170",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000297,
+    "name": "C07*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1100金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000298,
+    "name": "C08*屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000299,
+    "name": "C09*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2600金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000300,
+    "name": "C10*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2300金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000301,
+    "name": "C11*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紫水晶(hp吸收 0.5%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000302,
+    "name": "C12*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3700金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000303,
+    "name": "C13*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1600金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000304,
+    "name": "C14*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的大馬哈魚(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000305,
+    "name": "C15*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的大馬哈魚(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000306,
+    "name": "C16*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的劍龍(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000307,
+    "name": "C17*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的劍龍(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000308,
+    "name": "C18*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的三角龍(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000309,
+    "name": "C19*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的三角龍(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000310,
+    "name": "C20*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: QQ汽水B",
+    "result": "提高自身的hp＋1900, mp＋180",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000311,
+    "name": "B01*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 穿透彈(10秒內可以通過任何障礙物)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000312,
+    "name": "B02*天空之翼",
+    "description": "合成遊戲道具的卡片(未開放)",
+    "effect": "合成道具: 幸運(怪物掉卡片率120%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000313,
+    "name": "B03*屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000314,
+    "name": "B04*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+7%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000315,
+    "name": "B05*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(mp+70, 攻擊+13)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000316,
+    "name": "B06*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水266",
+    "result": "提高自身的mp＋266",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000317,
+    "name": "B07*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(mp+56, 攻擊+12)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000318,
+    "name": "B08*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於2500金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000319,
+    "name": "B09*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2800金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000320,
+    "name": "B10*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+2000)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000321,
+    "name": "B11*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2300金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000322,
+    "name": "B12*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3700金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000323,
+    "name": "B13*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於2200金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000324,
+    "name": "B14*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的霸王龍(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000325,
+    "name": "B15*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的霸王龍(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000326,
+    "name": "B16*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的翼龍(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000327,
+    "name": "B17*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的翼龍(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000328,
+    "name": "B18*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的暴龍(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000329,
+    "name": "B19*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的暴龍(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000330,
+    "name": "B20*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 地瓜",
+    "result": "提高自身的hp＋2500",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000331,
+    "name": "V01*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 清除彈(怪物屬性消失)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000332,
+    "name": "V02*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+700, 攻擊+10)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000333,
+    "name": "V03*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 琥珀(mp+120)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000334,
+    "name": "V04*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+620, 攻擊+8)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000335,
+    "name": "V05*天空之翼",
+    "description": "合成遊戲道具的卡片(未開放)",
+    "effect": "合成道具: 三重發射彈(一次性三重發射)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000336,
+    "name": "V06*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於1100金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000337,
+    "name": "V07*屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000338,
+    "name": "V08*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3000金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000339,
+    "name": "V09*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 紅豆湯",
+    "result": "提高自身的hp＋2790",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000340,
+    "name": "V10*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2800金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000341,
+    "name": "V11*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 月光石(防禦+38)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000342,
+    "name": "V12*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3900金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000343,
+    "name": "V13*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於2400金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000344,
+    "name": "V14*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的豹子頭(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000345,
+    "name": "V15*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的豹子頭(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000346,
+    "name": "V16*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的機器玩偶(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000347,
+    "name": "V17*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的機器玩偶(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000348,
+    "name": "V18*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的火蛇(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000349,
+    "name": "V19*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的火蛇(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000350,
+    "name": "V20*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水250",
+    "result": "提高自身的mp＋250",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000351,
+    "name": "P01*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 盾牌(9秒保護模)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000352,
+    "name": "P02*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 詛咒(怪物的防禦力減少50%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000353,
+    "name": "P03*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+620, 防禦+14)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000354,
+    "name": "P04*屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000355,
+    "name": "P05*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+700, 防禦+20)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000356,
+    "name": "P06*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: QQ汽水C",
+    "result": "提高自身的hp＋2000, mp＋190",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000357,
+    "name": "P07*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於2800金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000358,
+    "name": "P08*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於3000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000359,
+    "name": "P09*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3400金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000360,
+    "name": "P10*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紫水晶(hp吸收 0.3%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000361,
+    "name": "P11*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 紅寶石(攻擊+8%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000362,
+    "name": "P12*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3900金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000363,
+    "name": "P13*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於2600金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000364,
+    "name": "P14*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的獨角獸(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000365,
+    "name": "P15*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的獨角獸(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000366,
+    "name": "P16*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的牛魔王(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000367,
+    "name": "P17*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的牛魔王(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000368,
+    "name": "P18*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的獅身禿鷲(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000369,
+    "name": "P19*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的獅身禿鷲(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000370,
+    "name": "P20*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: QQ汽水C",
+    "result": "提高自身的hp＋2100, mp＋200",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000371,
+    "name": "E01*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 干擾彈(暫時讓怪物的子彈跟蹤消失)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000372,
+    "name": "E02*天空之翼",
+    "description": "合成遊戲道具的卡片(未開放)",
+    "effect": "合成道具: 變身寵物(可變身一回)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000373,
+    "name": "E03*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(攻擊+8, 防禦+11)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000374,
+    "name": "E04*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 黑曜石(屬性卡片獲得率 +1%)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000375,
+    "name": "E05*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(攻擊+10, 防禦+10)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000376,
+    "name": "E06*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 琥珀(mp+140)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000377,
+    "name": "E07*屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000378,
+    "name": "E08*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3600金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000379,
+    "name": "E09*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 相思茶",
+    "result": "提高自身的hp＋2900",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000380,
+    "name": "E10*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3000金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000381,
+    "name": "E11*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於5000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000382,
+    "name": "E12*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於6000金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000383,
+    "name": "E13*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於2800金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000384,
+    "name": "E14*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的不死鳥(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000385,
+    "name": "E15*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的不死鳥(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000386,
+    "name": "E16*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的三足鳥(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000387,
+    "name": "E17*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的三足烏(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000388,
+    "name": "E18*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的海怪(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000389,
+    "name": "E19*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的海怪(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000390,
+    "name": "E20*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水280",
+    "result": "提高自身的mp＋280",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000391,
+    "name": "A01*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 虛弱彈(增加50%傷害）",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000392,
+    "name": "A02*天空之翼",
+    "description": "合成遊戲道具的卡片",
+    "effect": "合成道具: 搖錢樹(擊敗怪物獲得的金幣量提高到120%)",
+    "result": "此道具只能在飛行中使用",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000393,
+    "name": "A03*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 藍碧璽(速度+4)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000394,
+    "name": "A04*屬性寶石",
+    "description": "合成屬性寶石的卡片 (未開放)",
+    "effect": "合成道具: 未開放",
+    "result": "屬性寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000395,
+    "name": "A05*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(攻擊+15, 防禦+14)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000396,
+    "name": "A06*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蓄能藥水312",
+    "result": "提高自身的mp＋312",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000397,
+    "name": "A07*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3000金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000398,
+    "name": "A08*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於5000金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000399,
+    "name": "A09*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於3800金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000400,
+    "name": "A10*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 鴛鴦石(hp+1400, mp+130)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000401,
+    "name": "A11*能力寶石",
+    "description": "合成能力寶石的卡片",
+    "effect": "合成道具: 祖母綠(hp+1500)",
+    "result": "能力寶石適用於寵物",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000402,
+    "name": "A12*裝飾卡片",
+    "description": "合成裝飾購物券的卡片",
+    "effect": "可以兌換相當於6000金幣的裝飾傢俱",
+    "result": "購買裝飾道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000403,
+    "name": "A13*NaNa秀卡片",
+    "description": "合成NaNa秀購物券的卡片",
+    "effect": "可以兌換相當於3200金幣的NaNa秀道具",
+    "result": "購買NaNa秀道具的購物券",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000404,
+    "name": "A14*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的石像怪(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000405,
+    "name": "A15*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的石像怪(集中)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000406,
+    "name": "A16*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的人馬怪(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000407,
+    "name": "A17*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的人馬怪(分散)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000408,
+    "name": "A18*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到1歲的斯芬克斯(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000409,
+    "name": "A19*寵物天使",
+    "description": "召喚寵物的卡片",
+    "effect": "召喚寵物: 可以成長到2歲的斯芬克斯(一般)",
+    "result": "合成後寵物寶石槽數增加",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000410,
+    "name": "A20*食物卡片",
+    "description": "合成食物的卡片",
+    "effect": "合成道具: 蘑菇",
+    "result": "提高自身的hp＋3200",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000411,
+    "name": "U01*黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末1100g",
+    "result": "對應寵物：綠毛象/白角野牛/東北黑熊",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000412,
+    "name": "U02*黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末1200g",
+    "result": "對應寵物：沉默的犀牛/金剛/大老虎",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000413,
+    "name": "U03*黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末1300g",
+    "result": "對應寵物：獅子王/白頭鷹/神祕雪怪",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000414,
+    "name": "U04*黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末1400g",
+    "result": "對應寵物：啄木鳥/猛獁/劍齒虎",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000415,
+    "name": "U05*黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末1500g",
+    "result": "對應寵物：大馬哈魚/劍龍/三角龍",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000416,
+    "name": "U06*黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末1600g",
+    "result": "對應寵物：霸王龍/翼龍/暴龍",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000417,
+    "name": "U07*黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末1700g",
+    "result": "對應寵物：豹子頭/機器玩偶/火蛇",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000418,
+    "name": "U08*黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末1800g",
+    "result": "對應寵物：獨角獸/牛魔王/獅身禿鷲",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000419,
+    "name": "U09*黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末1900g",
+    "result": "對應寵物：不死鳥/三足烏/海怪",
+    "source": "ddakg._D4"
+  },
+  {
+    "id": 13000420,
+    "name": "U10*黃金粉末",
+    "description": "合成使寵物成長到3歲的黃金粉末的卡片",
+    "effect": "合成道具: 黃金粉末2000g",
+    "result": "對應寵物：石像怪/人馬怪/斯芬克斯",
+    "source": "ddakg._D4"
+  }
+]

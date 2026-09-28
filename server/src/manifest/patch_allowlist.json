@@ -1,0 +1,1084 @@
+{
+  "schema_version": 1,
+  "purpose": "exact_hash_patch_candidates_pending_per_file_review_not_a_full_game",
+  "runtime_status": "blocked",
+  "runtime_acceptance": false,
+  "official_baseline_verified": false,
+  "binary_delta_implemented": false,
+  "complete_playable_game": false,
+  "source_closure_count_observed": 90,
+  "default_layers": [
+    "runtime",
+    "source",
+    "knowledge"
+  ],
+  "layer_dependencies": {
+    "runtime": [
+      "docs"
+    ],
+    "source": [
+      "docs"
+    ],
+    "knowledge": [
+      "docs"
+    ],
+    "testports": [
+      "docs"
+    ]
+  },
+  "optional_tool_layers": [
+    "python",
+    "tcc"
+  ],
+  "review_contract": "Candidate hashes are not approval. Exact path/hash, privacy_reviewed, provenance_reviewed, redistribution_approved and license_choice required separately. No approvals generated.",
+  "files": [
+    {
+      "path": "README.md",
+      "layer": "docs",
+      "size": 1230,
+      "sha256": "7de89500d1e4202dd18f6b78de52b6ce8958f75a35df5d4ce7300e0ecb4a3545",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "adapter/nanaimo_adapter.c",
+      "layer": "source",
+      "size": 3560,
+      "sha256": "fe45d4d6a764515ed86b39f2db6261e446b9c20ae50ec4ac5278f88880f08120",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "adapter/nanaimo_adapter.exe",
+      "layer": "runtime",
+      "size": 18281984,
+      "sha256": "017b284dabe6fc701a8e70c2f42042c125acd610cd9d0dc56171abb2e85c2b25",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "adapter/nanaimo_adapter_testports.c",
+      "layer": "source",
+      "size": 162,
+      "sha256": "3ead734315c1506a0f526e93bc8efde216dfe1d8cb6c3a81e80ca41c2310e1c2",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "adapter/nanaimo_adapter_testports.exe",
+      "layer": "testports",
+      "size": 18281984,
+      "sha256": "e8b2900859171c62667c71d86e902c451fd6ae6640a904ecec9f9c36788361e5",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "docs/build-and-test.md",
+      "layer": "docs",
+      "size": 3251,
+      "sha256": "7e1a872f70f6d0ac9499355dc2a8d283ffc3a839141ecea2ba7a3028420b53c9",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "docs/manifests-and-export.md",
+      "layer": "docs",
+      "size": 2148,
+      "sha256": "b6cf0aee5cfee7155f9cabf66163c1b13d861138f7bb8b27fba0b6e8d0edad6a",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "docs/runtime-dependencies.md",
+      "layer": "docs",
+      "size": 1393,
+      "sha256": "13aa223d183dfd3f22742c4025719c7a7cfde38287eff5e13b343328d286e335",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "docs/startup-and-source.md",
+      "layer": "docs",
+      "size": 2391,
+      "sha256": "22427921b78b98abfc2637b00ae3b75769bc9be414c1d1085a387b3bf9fd199b",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "docs/third-party-notices.md",
+      "layer": "docs",
+      "size": 1489,
+      "sha256": "a56f8923d9b035992bf652ba6bf49f20aba1cf226e4c962c0a80009b909ffe32",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "gui_launcher/client_connect.ps1",
+      "layer": "runtime",
+      "size": 4405,
+      "sha256": "bba5837563b43f238b50a2cfe61a4e0bc81c65ac333f87beb1a8bc067d752bd1",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "gui_launcher/inventory_admin_backend.py",
+      "layer": "runtime",
+      "size": 11045,
+      "sha256": "374e79b82d26fea6c74c4d324b792dc70c38ebe88bc9f051a49615c7ab05e533",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "gui_launcher/inventory_admin_gui.ps1",
+      "layer": "runtime",
+      "size": 23412,
+      "sha256": "e92622e7d9c74df785bb81c3d212c6c9de582d88e0c91cb4a426d959b6301fa0",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "gui_launcher/launch_modes/gamestartoption.network.ini",
+      "layer": "runtime",
+      "size": 193,
+      "sha256": "5930276c765992a27ca85e7fbb07f78cff56fb427ccbeea36f31287f90955117",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "gui_launcher/launch_modes/gamestartoption.standalone.ini",
+      "layer": "runtime",
+      "size": 197,
+      "sha256": "c7d3f6e87d537826f20a7dbe364d3880556572f2499caa104bba1488de055875",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "gui_launcher/nanaimo_launcher.ps1",
+      "layer": "runtime",
+      "size": 91150,
+      "sha256": "399cdf3681971dcc4885b96955a80813d7a22c5faa59758d695811b9f13264f2",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "knowledge/README.md",
+      "layer": "knowledge",
+      "size": 1882,
+      "sha256": "19132944bc934831d7a3cbf231ed18cb2a8f575c36aaed7aa2c20ce5166816a8",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "knowledge/authority/01-framing-and-connections.md",
+      "layer": "knowledge",
+      "size": 6723,
+      "sha256": "baa06a9cb5651fc85db6b6b50e7869bbd805063faad3e245223fc90a01bc1c7d",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "knowledge/authority/02-login-village-and-characters.md",
+      "layer": "knowledge",
+      "size": 9176,
+      "sha256": "362a79e23ce3eef9771d452db51cf9d93c4721d6948e126b6c7d1346182e7a4b",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "knowledge/authority/03-profiles-and-inventory.md",
+      "layer": "knowledge",
+      "size": 65178,
+      "sha256": "9c62fedf73ae0340b9de93867e3af099102721b7b0064fc1731846ef07fb2640",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "knowledge/authority/04-pets-and-combat.md",
+      "layer": "knowledge",
+      "size": 23716,
+      "sha256": "293b09e122adff5cd86fe05194321af1d78929765edaa078587f9cfab03b5078",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "knowledge/authority/05-rooms-and-multiplayer.md",
+      "layer": "knowledge",
+      "size": 15146,
+      "sha256": "26f5aa463f78d5b8ad132c9e9db6fdf43c5660ea97f99abcf27e572d4d9cc798",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "knowledge/authority/06-targets-drops-and-bosses.md",
+      "layer": "knowledge",
+      "size": 35603,
+      "sha256": "e4045d91121cb6bf6422f650c322be87e9bd6c89779d23ae055cb8c3064f0725",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "knowledge/authority/07-pickup-settlement-and-rewards.md",
+      "layer": "knowledge",
+      "size": 15685,
+      "sha256": "8015da39a1eaa81581adb80551f1d8704e6447c530f3ab89fb1a76ad7d4f7b52",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "knowledge/authority/08-static-addresses-and-call-chains.md",
+      "layer": "knowledge",
+      "size": 102701,
+      "sha256": "889f1cdc7cae6e9f9eb5fbf386438545b464e8e62f5dce92f5c3abfa1790ae95",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "knowledge/authority/09-runtime-configuration-and-checks.md",
+      "layer": "knowledge",
+      "size": 3669,
+      "sha256": "4e30c8fcd253cd0c94c21ced45ba676b22b6fef7a067abfd74eac2faec588e45",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "manifest/source_closure.json",
+      "layer": "source",
+      "size": 17664,
+      "sha256": "f0bd83e7677396b94890a62b44ceb6c5b1ece3a117228e00f5389658881301c8",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/adapter_core/foundation.inc",
+      "layer": "source",
+      "size": 28650,
+      "sha256": "33fb0d9b6e970063493247f4b713727f8dc22d1978f797bdb6464a56065fe8d6",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/adapter_core/profile_resources_runtime.inc",
+      "layer": "source",
+      "size": 8481,
+      "sha256": "b63e03693ab32dca75bff5d2c3466688c7722fc2170e08998a6e3ed608f6f43c",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/adapter_core/teamplay_adapter.inc",
+      "layer": "source",
+      "size": 14556,
+      "sha256": "2b9edda61357033a5e0126062dd2614253905032e93ff5ec1e60bb25a8020ebd",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/apartments/apartment_runtime.inc",
+      "layer": "source",
+      "size": 10546,
+      "sha256": "37b2d161569eb7a0bfe52b67f03f8c8e32fead9487a7c37771ebfb65886b49c2",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/boss/component_data.inc",
+      "layer": "source",
+      "size": 570725,
+      "sha256": "068eb07e0477335d9b8437284f86ca18846c05ad87a7ac89e987a3789fccd05f",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/boss/protocol_adapter.inc",
+      "layer": "source",
+      "size": 1646,
+      "sha256": "9c5270da0fe17939bb89bf81ac5f90e578412277096acc20936097b852e1b0c8",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/cards/card_system.inc",
+      "layer": "source",
+      "size": 5067,
+      "sha256": "a9582ebee25b2d4b45ea4fb8ce713958c806d43c6d2ad6580a332e05caaa9953",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/cards/gameitem_effect_data.inc",
+      "layer": "source",
+      "size": 56075,
+      "sha256": "167c8b2bfffdf7f6e2fe4ecd908de01be4d71e097d5679d7a109fed8fb510f1c",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/cards/key_runtime.inc",
+      "layer": "source",
+      "size": 10872,
+      "sha256": "fa99d1b4f3e9e9143ccd3f31e7659f1d8d75a0befd45f370d9f7ccee7287ccf5",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/cards/profile_state.inc",
+      "layer": "source",
+      "size": 5379,
+      "sha256": "7c380aea854a3b5bf3b893f2fdff7cc8b3dec775e4e370c2c9c046692245da0c",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/cards/random_pool.inc",
+      "layer": "source",
+      "size": 3196,
+      "sha256": "7c21c28eecb35d244e7f4a2ecc3f8d0311b7cc1b9e1de764a7cbd2e52f9d7d66",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/cards/synthesis_recipe_data.inc",
+      "layer": "source",
+      "size": 2049040,
+      "sha256": "f639afdbc24f1bdf92779c40e769c6f02c5c43520b725b4026ec421c78e6ab54",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/catalogs/avatar_shop_catalog.inc",
+      "layer": "source",
+      "size": 92971,
+      "sha256": "8806f9a000be95c9961153696d7ae0870f292dbcc493049961baadf86e149f57",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/catalogs/pet_shop_catalog.inc",
+      "layer": "source",
+      "size": 26141,
+      "sha256": "d74b21d81e5dd01651bcd2a398d066a5c79b7207bda424d35207654e8baf12c9",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/channel_reentry/channel_reentry_runtime.inc",
+      "layer": "source",
+      "size": 8351,
+      "sha256": "0ebb705c3817fc34df395bb46a5f547447d3d2723762f77db0e5306fbdc6d481",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/channel_reentry/current_runtime.inc",
+      "layer": "source",
+      "size": 6163,
+      "sha256": "cbdb4627b449cda25dc1edd5907d0bb902ea78d0e38e60186fe9cc54011ef519",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/channel_reentry/peer_runtime.inc",
+      "layer": "source",
+      "size": 5643,
+      "sha256": "846ee7bdd629c64ba50638f3074317bcd90fe1a452029e543015acc7abf6863f",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/combat_attribution/map_identity_runtime.inc",
+      "layer": "source",
+      "size": 5674,
+      "sha256": "3ff016eef1a18f9e5067042bcd3f3a0af88c3460800bd67d45c1b2556db982fa",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/combat_attribution/meat_collision_runtime.inc",
+      "layer": "source",
+      "size": 5275,
+      "sha256": "6c0f1e3c2fc5c805d8f88240e2209ed639a143924329202b2e81242b487a53ac",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/combat_attribution/monster_hp_resource_policy.inc",
+      "layer": "source",
+      "size": 16413,
+      "sha256": "7a5be2e4b33b084a02927005c4b888e1111fd2b67afe5db12ec8339917c351fa",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/combat_attribution/projectile_runtime.inc",
+      "layer": "source",
+      "size": 5351,
+      "sha256": "4755e27db0e4ed4df97a2961557f7169ee5dda0b633f5f5fb219bb272964fe12",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/combat_economy/coin_drop_runtime.inc",
+      "layer": "source",
+      "size": 4258,
+      "sha256": "3acbedbec7c471d4adc6eb3d7118fa9d1a9c028ed6605f2980956bcb54964644",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/combat_economy/collision_damage_runtime.inc",
+      "layer": "source",
+      "size": 9585,
+      "sha256": "23052d1635734f875560fd8210da0d2e9a9ad98f5233e43b10ab53754146e107",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/combat_economy/combat_economy_policy.inc",
+      "layer": "source",
+      "size": 4388,
+      "sha256": "6fee2c681ff7c09f318885cf2833ea11a08b2bb66331445ce0d86cc4e10f0da2",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/combat_economy/incoming_pon_attack_data.inc",
+      "layer": "source",
+      "size": 118076,
+      "sha256": "0ff030038760a140893ffa1fbe700031dd7000aaedce080c3149e6d721401da2",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/dungeon/unlock_patch.inc",
+      "layer": "source",
+      "size": 2401,
+      "sha256": "43526d0192bccb6dcae06b18a47bd82b98d9c2f625fd8d27d3c4c14a48b96564",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/dungeon_progression/progression_runtime.inc",
+      "layer": "source",
+      "size": 13016,
+      "sha256": "106f4e493592bed525c41a6943f99775f61d74750454e3d69b9523904321982a",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/dungeon_unlock/unlock_patch.inc",
+      "layer": "source",
+      "size": 1551,
+      "sha256": "cf68742db733e662cce8a7e8590feac5bab84e4d69189d61e9eecf27a5986783",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/fixtures/c44c_selina.inc",
+      "layer": "source",
+      "size": 11021,
+      "sha256": "c082114c186b78cbec734b34ac04c9517eebef9f3e49d646755dac7ae399e603",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/fixtures/cfec_exact.inc",
+      "layer": "source",
+      "size": 4317,
+      "sha256": "d4ae690a6f840b1acc43aa7089cd0f5141ea8881ec090351e616a47536808e9b",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/fixtures/full_profile.inc",
+      "layer": "source",
+      "size": 18138,
+      "sha256": "cda17ed25ad579606b7bae76cda36015756e9462fe52de1c9bb2589485115a01",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/fixtures/standalone_exact.inc",
+      "layer": "source",
+      "size": 19829,
+      "sha256": "38b6431e038830ca9f172834a5989e062171e0483c30be2838175b6e2de84075",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/fixtures/standalone_ref_payloads.inc",
+      "layer": "source",
+      "size": 17396,
+      "sha256": "32634877e9daaa877f8a96a6d3b9a6bf7aa18948f7874903daa497d31129f149",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/flight_items/flightitem_runtime.inc",
+      "layer": "source",
+      "size": 3019,
+      "sha256": "b52a4bc63f200742b2cc00979c88d93228b128f379d2cc251869264afee114e5",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/flight_items/protocol_overrides.inc",
+      "layer": "source",
+      "size": 1793,
+      "sha256": "e0575bff3cc68d624faa12956fc8d1f5c2c5897de73ac964827775be6633abe7",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/game_items/gameitem_effect_data.inc",
+      "layer": "source",
+      "size": 69335,
+      "sha256": "7c3bfa38885f0f0838a12d887df01a3d12854a839bc061729f63c220b2375f3d",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/game_session/gs_runtime.inc",
+      "layer": "source",
+      "size": 126087,
+      "sha256": "fec038226baabe0877dfda505080f071fbe62c240653358eee3c51ec8f574863",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/game_session/managed_bridge.inc",
+      "layer": "source",
+      "size": 8504,
+      "sha256": "7a7340df8eb03571a327821a5153420e07e1e99f7822493a07df92b38de64dcb",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/game_session/revival_runtime.inc",
+      "layer": "source",
+      "size": 1036,
+      "sha256": "2623d4ec1fc3bdff52be28f25e1149b1c19c25c3d37a35e7a2bb20d129ec9941",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/game_session/revival_state.inc",
+      "layer": "source",
+      "size": 3389,
+      "sha256": "441a037da90e2ca20ff353d0e13e2b854003350901c2b95f1587b014b96e455b",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/interiors/interior_catalog.inc",
+      "layer": "source",
+      "size": 22604,
+      "sha256": "d71749ee7f6875add030538675d2efe4e356e8bb1241d09ec3f92651c4d0a10a",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/inventory_instances/item_lifesteal_runtime.inc",
+      "layer": "source",
+      "size": 3504,
+      "sha256": "e650bb0fb10deb29a0869b6282c3276ea0b625ac3e9fc72cc4742088c9e22c11",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/inventory_instances/petitem_runtime.inc",
+      "layer": "source",
+      "size": 16742,
+      "sha256": "312d186c3926b35981b6a96ccc2794f18dc5b5ae6d7f8eb91697e2bbfbb86914",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/inventory_instances/shop_runtime.inc",
+      "layer": "source",
+      "size": 9659,
+      "sha256": "eaf7f3514d26fa32c84bf2e937ae972e4f2608783cc8ba0a8e5f7da0b6d1e249",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/multiplayer/peer_runtime.inc",
+      "layer": "source",
+      "size": 9117,
+      "sha256": "bbb8b0053a2822b0c91c2d3ab6fe8a27069aa118fba730a6b87b5663cdc36473",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/multiplayer/realtime_runtime.inc",
+      "layer": "source",
+      "size": 32789,
+      "sha256": "41e635c3f08d760f9751f1e990032360e93b27bfe4e34ad0a8cea3e4eaca74fa",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/multiplayer/room_policy.inc",
+      "layer": "source",
+      "size": 18032,
+      "sha256": "1a13cb6c1a6fa2eabef5f547333ac2212a13479d83369a5f58baf8a7addd73ff",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/multiplayer/start_runtime.inc",
+      "layer": "source",
+      "size": 3191,
+      "sha256": "3c87f4d66a518cbbad33463d3edcbe7282ee99edbc4f826138c25819e9ae4744",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/multiplayer/teamplay_runtime.inc",
+      "layer": "source",
+      "size": 1789,
+      "sha256": "1777865af3090a62b6fe7e6291493a2b1518f67052cffa1342e29f3d8263f8de",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/multiplayer_combat/player_combat_stats.inc",
+      "layer": "source",
+      "size": 1257,
+      "sha256": "e35e974a54c5bdcb38d043171b16ebfcac92ba39d212f5d0d798345f19475748",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/multiplayer_combat/realtime_runtime.inc",
+      "layer": "source",
+      "size": 36699,
+      "sha256": "b0366070daf35dd962cb288644dc39c1a1bb8988efa98773c845393c4a5ee659",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/multiplayer_combat/start_runtime.inc",
+      "layer": "source",
+      "size": 3191,
+      "sha256": "3c87f4d66a518cbbad33463d3edcbe7282ee99edbc4f826138c25819e9ae4744",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/multiplayer_combat/teamplay_runtime.inc",
+      "layer": "source",
+      "size": 1789,
+      "sha256": "1777865af3090a62b6fe7e6291493a2b1518f67052cffa1342e29f3d8263f8de",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/network/network_main.inc",
+      "layer": "source",
+      "size": 15889,
+      "sha256": "be563e088310f24daf2b79966944af0106f8b347bd80b9896e2f082d2258fdce",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/network/network_main_testports.inc",
+      "layer": "source",
+      "size": 16089,
+      "sha256": "b8b1cdfd75e3a947afefed831a740480aa38beb00e5bfa679aca8182d45e4f0c",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/pet/attack_mode_powerup.inc",
+      "layer": "source",
+      "size": 1100,
+      "sha256": "123faf89ab5b45208797b71b5dc471ebf0710876ca5f4ce7eb8e767f76d77e15",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/pet_crafting/pet_growth_catalog.inc",
+      "layer": "source",
+      "size": 30559,
+      "sha256": "cf219c9ce2f001c3d9b127503c182ab1d1a064635776f55d84e00996f5a65c4e",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/pet_crafting/synthesis_runtime.inc",
+      "layer": "source",
+      "size": 9079,
+      "sha256": "40a4b5dbfa3eb56632d69c79cc0d685c0edb630c0e5a4680e2f3530a3ec14192",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/pet_gems/pet_gem_effect_catalog.inc",
+      "layer": "source",
+      "size": 1265539,
+      "sha256": "9ef94d793c1ba568c963ea4b9c06ada85df47b189cb9e4f1db2b6aa07bf7b358",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/pet_growth/petitem_runtime.inc",
+      "layer": "source",
+      "size": 207,
+      "sha256": "08f87ae563bd54954ae91ab47f3b1c038da0ed9c95fb1bef5b84f79c9a53290e",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/profile/shopping_inventory_state.inc",
+      "layer": "source",
+      "size": 15458,
+      "sha256": "a61e0403cbcb765dd48d6fc8642f2cb660b3551884e73eb875277f61944818fc",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/protocol/experience_carriers.inc",
+      "layer": "source",
+      "size": 1710,
+      "sha256": "c210a667933c40a47082100d63110f04db1a00cec59b6e467e41c1a8b7cbe921",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/protocol/protocol.inc",
+      "layer": "source",
+      "size": 90209,
+      "sha256": "a67636991e7318c5ec5b6b1fa5561cd01db57541d6115e25da2a430de6cb13d1",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/protocol/protocol_state_sync.inc",
+      "layer": "source",
+      "size": 7520,
+      "sha256": "45059c1581feef06a922f18d7958e77b212af94d2b9db499c04faadaa9d47da5",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/protocol/protocol_state_sync_base.inc",
+      "layer": "source",
+      "size": 9755,
+      "sha256": "8d70c04c0918aebc305877df82b3f9948817ba3ef375eef2dd1e5e294e9117ad",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/protocol_extensions/protocol_overrides.inc",
+      "layer": "source",
+      "size": 19831,
+      "sha256": "052c21e8e2e19cd479424953963f3e4aa24ccaed23f5c3193c583264dd4bc0f4",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/quickbar/quickbar_runtime.inc",
+      "layer": "source",
+      "size": 22579,
+      "sha256": "9008202ef14f78685f3d806f4d62da2c6aabc87298608ce247ceb97f656196f2",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/settlement/battle_score_runtime.inc",
+      "layer": "source",
+      "size": 1221,
+      "sha256": "ec89bd360b96ba942a9735a3a5a552acb857719df6e9c01ccb9c9667f0b62b5b",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/shop_catalogs/shop_item_catalog.inc",
+      "layer": "source",
+      "size": 1608,
+      "sha256": "3d1ad4f3e9966ad4c186f0a3fb5c7bca531e670c930de217fc67bb8e2ebd363b",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/shop_catalogs/shop_protocol.inc",
+      "layer": "source",
+      "size": 1724,
+      "sha256": "2979bac329166dfc03a4b9059244fdcfef8370e4949ba9bc126753981d6727f5",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/skill_lifecycle/skill_effect_cleanup_runtime.inc",
+      "layer": "source",
+      "size": 4609,
+      "sha256": "2e381ae9254d5dbc5b10edbb8be9313eeeddcf883d4658cbb9b0c2428a0dcf8f",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/skills/attack_policy.inc",
+      "layer": "source",
+      "size": 821,
+      "sha256": "4295fc7414948304a4eed8fb10dae5016f6b6916f24489c7dce1861419898046",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/skills/profile_state.inc",
+      "layer": "source",
+      "size": 8679,
+      "sha256": "616cdd668754b130c76684ca674e9b611d8ffc94e663155d87ea24f21c5081c7",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/skills/progress_runtime.inc",
+      "layer": "source",
+      "size": 5039,
+      "sha256": "608c1d9598fe84697e5704cf0997094a68429ef51be5f629c85f7a38b3257d61",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/skills/slot_state.inc",
+      "layer": "source",
+      "size": 615,
+      "sha256": "c62f1cdae2f59f4de0cd84cbb28a0546bde9cd3bb3bc9920fe61e52129fab907",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/stage_damage/damage_runtime.inc",
+      "layer": "source",
+      "size": 8075,
+      "sha256": "26e8c9e63cf7d64336161366735a995da7255635732d2d4cc0f46494f5168043",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/stage_damage/stage_damage_catalog.inc",
+      "layer": "source",
+      "size": 948784,
+      "sha256": "a5ca2b8b724d7d17f0f5473812e43dd7db22ce4da7395f9e7ae59589d3daf23b",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/target_resources/hp_resource_runtime.inc",
+      "layer": "source",
+      "size": 24608,
+      "sha256": "8b6d78f1ec12ed3b04fa5c5f80bc8128b7917bb5fe47068f8e675b4400586619",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/target_resources/lumineos_resource_identity.inc",
+      "layer": "source",
+      "size": 693,
+      "sha256": "7c199b6ceca6d90c3bfe5fd63e7fb2e704db3eee0c5a77da28ba779cbf49b8ee",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/targets/attack_candidates.inc",
+      "layer": "source",
+      "size": 85500,
+      "sha256": "2b48403bca18d53ca8984c24dc9e2b9cdb1a1564810e4fc7d4a47ec0e66fe9e1",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/targets/crate_drop_policy.inc",
+      "layer": "source",
+      "size": 4217,
+      "sha256": "cbab4e299ac2dfcfac91638def630bfab6932d8ad5c134177e739b9b5894c48c",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/targets/crate_drop_profiles.inc",
+      "layer": "source",
+      "size": 195685,
+      "sha256": "46db1c9ba7f1473b32e2ec0b0d1ebddc8889787e2696f90f3bc149f0a68fca38",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/targets/hp_resource_global_data.inc",
+      "layer": "source",
+      "size": 24986020,
+      "sha256": "619da131507d5ab98b0642d0b3d831a2be12ff12cd203d613256851b5aa726b4",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/targets/runtime_crate_alias_policy.inc",
+      "layer": "source",
+      "size": 1713,
+      "sha256": "aa30f00ec3f6a9048dfed29bb3fb1fa6df5b918e3ef5cbdaa33995f64cb04212",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/village/multiplayer_social.inc",
+      "layer": "source",
+      "size": 4061,
+      "sha256": "9ebb6e8dc3db12c9c5d4a2b7a0abca198325e887375c383753adb7bd182758ba",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/village/social_core.inc",
+      "layer": "source",
+      "size": 4461,
+      "sha256": "abbc29dcc8edd949bd57dd72abcc80399b22b66c4185b39e6f66edd7163b20e2",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/components/winter_boss/boss_hp_sync_runtime.inc",
+      "layer": "source",
+      "size": 48592,
+      "sha256": "a2db599bad5fedb7f687bfe7a312dc4c248b6d161cdf83ef1b41cf228640b858",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "release/teamplay_common.inc",
+      "layer": "source",
+      "size": 14407,
+      "sha256": "99c57a45744727a902b9ddef68b572bf0eadae535d754e60f12c4ddc98f3b6c7",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/build_adapter.ps1",
+      "layer": "source",
+      "size": 1866,
+      "sha256": "5e631db08c6a1dcc176089ce37d805226e78627ff153a21f0ea410d816bac53b",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/clean_generated_state.ps1",
+      "layer": "source",
+      "size": 1570,
+      "sha256": "64b89b3d0bd6873f130984149e679d542db05871b828f4b21a20ff5a51e1b1c6",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/export_patch.py",
+      "layer": "source",
+      "size": 23398,
+      "sha256": "d977f95296a8976b6cefa260c74b6196d8ab26b3809c4ad01ac7e242d73ddeed",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/generate_package_index.py",
+      "layer": "source",
+      "size": 1686,
+      "sha256": "abceb44ab038443f2bca93f99a189c4231931d57775e559c2e656727a6f3cb6d",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/refresh_manifest.py",
+      "layer": "source",
+      "size": 2662,
+      "sha256": "5245ce4e8bb97d76ca40e952135c86e7b9074ec44bd25f06fd83811f3d2cc724",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/refresh_patch_manifest.py",
+      "layer": "source",
+      "size": 9576,
+      "sha256": "3885eaa84d5b656a09a3c1a2c569f311bab0353054136f4312949e51f1afcf1e",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/refresh_source_manifest.py",
+      "layer": "source",
+      "size": 2671,
+      "sha256": "44a5cce600961831d80e93f67170e1607b75ce8658835521e4d7f2706b3be361",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/test_client_baseline.py",
+      "layer": "source",
+      "size": 3216,
+      "sha256": "e31076d054f7f9a48839abce9bc25dab38782bb6ebc73731d56576445f3eb2fe",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/test_export_patch.py",
+      "layer": "source",
+      "size": 31220,
+      "sha256": "02405ccc0ab219e59bcc2f3b8fcf2aebb00fe8d7c4a2bedb52208cd06af06a28",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/test_launcher_contract.py",
+      "layer": "source",
+      "size": 8012,
+      "sha256": "4cd601a03610b45caa8d0d35b5aa9fa3c99c793208c89ec7bac848eeef3bbf57",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/test_native_ui_protocol.py",
+      "layer": "source",
+      "size": 12215,
+      "sha256": "7d601f204dcfa27ec67b2d3281c714d80b11ffa117aa10127ffe37f1ec6cc15a",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/test_verify_package.py",
+      "layer": "source",
+      "size": 5485,
+      "sha256": "87096e03d3b4bdf8fc00de451a268c261f9402ad78a1c018c411a8fbf76c33be",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/verify_client_baseline.py",
+      "layer": "source",
+      "size": 4404,
+      "sha256": "62f7555c3ab4d04d3f1bd08bf6972feff710f20443e45d263c4425cd0ac36993",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/verify_package.ps1",
+      "layer": "source",
+      "size": 1525,
+      "sha256": "3cdbd4d0bd23b40ea319f4bedebb7b012d10f6197895ea05c11f25d4df46f90f",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "layer": "source",
+      "size": 5973,
+      "sha256": "230ed986942d885505b5e0b28180821d69b15d14c86da43b185e05c9ae178b34",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    },
+    {
+      "path": "start_nanaimo_launcher.bat",
+      "layer": "runtime",
+      "size": 164,
+      "sha256": "eaabac6548e7b59a0c14b087ce96e8e37374849642fabc810aab6b35fd14ac14",
+      "provenance": "project_or_derived_material_requires_review",
+      "approval": "required_per_file"
+    }
+  ]
+}

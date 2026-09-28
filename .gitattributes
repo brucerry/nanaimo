@@ -1,0 +1,26 @@
+* text=auto
+*.cs text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.inc text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+# Keep legacy resources and executable hashes identical after cloning.
+*.im3 -text
+*.pack -text
+*._D* -text
+*.exe -text
+*.dll -text
+*.bin -text
+*.ico -text
+*.eff -text
+*.oog -text
+*.wav -text
+*.ogg -text
+*.dat -text
+*.DAT -text
+*.st -text

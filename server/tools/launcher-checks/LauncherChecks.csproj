@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../launcher/ClientLocator.cs" Link="ClientLocator.cs" />
+    <Compile Include="../../../launcher/AccountLoginControl.cs" Link="AccountLoginControl.cs" />
+    <Compile Include="../../../launcher/SaveReset.cs" Link="SaveReset.cs" />
+    <Compile Include="../../../launcher/ProcessPaths.cs" Link="ProcessPaths.cs" />
+  </ItemGroup>
+</Project>

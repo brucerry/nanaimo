@@ -44,4 +44,8 @@ try {
     & $launcher --verify
     if ($LASTEXITCODE) { throw "Launcher cannot use its $Architecture $Target server." }
     Write-Output "WINDOWS_BUILD_CHECKS_PASS target=$Target architecture=$Architecture"
+} catch {
+    $message = $_.Exception.Message.Replace('%', '%25').Replace("`r", '%0D').Replace("`n", '%0A')
+    if ($env:GITHUB_ACTIONS -eq 'true') { Write-Host "::error title=Windows build check::$message" }
+    throw
 } finally { Pop-Location }

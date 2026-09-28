@@ -24,3 +24,5 @@
 *.dat -text
 *.DAT -text
 *.st -text
+# The shipped client is copied byte-for-byte; some compressed resources lack NUL bytes.
+/client/** -text

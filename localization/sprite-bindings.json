@@ -36829,215 +36829,6 @@
     ]
   },
   {
-    "template": "bitmap-8f5accdbcc95d179.im3",
-    "targets": [
-      {
-        "path": "client/Working/Obj/img/nanaimo_vill_guidemessage_avatar.im3"
-      }
-    ],
-    "regions": [
-      {
-        "box": [
-          12,
-          0,
-          341,
-          97
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_avatar.0",
-        "size": 21,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      },
-      {
-        "box": [
-          65,
-          84,
-          241,
-          25
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_avatar.1",
-        "size": 21,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      },
-      {
-        "box": [
-          150,
-          106,
-          77,
-          21
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_avatar.2",
-        "size": 17,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      }
-    ]
-  },
-  {
-    "template": "bitmap-089a850a38dc0f4e.im3",
-    "targets": [
-      {
-        "path": "client/Working/Obj/img/nanaimo_vill_guidemessage_ddakzi.im3"
-      }
-    ],
-    "regions": [
-      {
-        "box": [
-          0,
-          0,
-          278,
-          87
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_ddakzi.0",
-        "size": 21,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      },
-      {
-        "box": [
-          61,
-          73,
-          175,
-          23
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_ddakzi.1",
-        "size": 19,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      },
-      {
-        "box": [
-          2,
-          93,
-          292,
-          22
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_ddakzi.2",
-        "size": 18,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      },
-      {
-        "box": [
-          123,
-          114,
-          61,
-          21
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_ddakzi.3",
-        "size": 17,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      }
-    ]
-  },
-  {
-    "template": "bitmap-e014ac6092faf7b7.im3",
-    "targets": [
-      {
-        "path": "client/Working/Obj/img/nanaimo_vill_guidemessage_house.im3"
-      }
-    ],
-    "regions": [
-      {
-        "box": [
-          0,
-          0,
-          248,
-          89
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_house.0",
-        "size": 21,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      },
-      {
-        "box": [
-          39,
-          73,
-          188,
-          22
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_house.1",
-        "size": 18,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      },
-      {
-        "box": [
-          99,
-          93,
-          78,
-          23
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_house.2",
-        "size": 19,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      }
-    ]
-  },
-  {
-    "template": "bitmap-4c0cc521e75df111.im3",
-    "targets": [
-      {
-        "path": "client/Working/Obj/img/nanaimo_vill_guidemessage_petitem.im3"
-      }
-    ],
-    "regions": [
-      {
-        "box": [
-          0,
-          0,
-          428,
-          90
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_petitem.0",
-        "size": 21,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      },
-      {
-        "box": [
-          102,
-          73,
-          221,
-          23
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_petitem.1",
-        "size": 19,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      },
-      {
-        "box": [
-          183,
-          93,
-          79,
-          21
-        ],
-        "key": "sprite.nanaimo_vill_guidemessage_petitem.2",
-        "size": 17,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      }
-    ]
-  },
-  {
     "template": "bitmap-c134e3afa22cb0f5.im3",
     "targets": [
       {
@@ -37057,19 +36848,6 @@
         "color": "#ffffff",
         "stroke": 1,
         "outline": "#333333"
-      },
-      {
-        "box": [
-          339,
-          557,
-          55,
-          17
-        ],
-        "key": "sprite.intro_vill_godenglory.2",
-        "size": 13,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
       }
     ]
   },
@@ -37080,21 +36858,7 @@
         "path": "client/images/login_images/intro_vill_irai.im3"
       }
     ],
-    "regions": [
-      {
-        "box": [
-          339,
-          557,
-          54,
-          17
-        ],
-        "key": "sprite.intro_vill_irai.3",
-        "size": 13,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      }
-    ]
+    "regions": []
   },
   {
     "template": "bitmap-c0894f569e22a392.im3",
@@ -37125,19 +36889,6 @@
         "color": "#ffffff",
         "stroke": 1,
         "outline": "#333333"
-      },
-      {
-        "box": [
-          339,
-          557,
-          54,
-          17
-        ],
-        "key": "sprite.intro_vill_platanus.3",
-        "size": 13,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
       }
     ]
   },
@@ -37148,21 +36899,7 @@
         "path": "client/images/login_images/intro_vill_shyaien.im3"
       }
     ],
-    "regions": [
-      {
-        "box": [
-          339,
-          555,
-          56,
-          19
-        ],
-        "key": "sprite.intro_vill_shyaien.2",
-        "size": 15,
-        "color": "#ffffff",
-        "stroke": 1,
-        "outline": "#333333"
-      }
-    ]
+    "regions": []
   },
   {
     "template": "bitmap-fe44a2cbdd19c5e8.im3",
@@ -79782,15 +79519,6 @@
         "outline": "#9d530a"
       }
     ]
-  },
-  {
-    "template": "removed.shop-brand.im3",
-    "targets": [
-      {
-        "path": "client/Working/Obj/img/pw_logo001.im3"
-      }
-    ],
-    "regions": []
   },
   {
     "template": "removed.ozvill-brand.im3",

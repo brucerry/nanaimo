@@ -12,7 +12,8 @@
       ],
       "template": "bitmap-9e912aca549a3bf7.im3",
       "sha256": "3edb0d12997d4d8ce12fd28d9ca34f7b048f014b3481213209985f9eacf3a245",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "8e9831b68249fec47e7ff742b734f419d052917bf3185a7564280f5aee75c66f"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep02.im3",
@@ -24,7 +25,8 @@
       ],
       "template": "bitmap-2586de8a9ad2c1e8.im3",
       "sha256": "8a6f245dec353dcce33ac41bcb0e51276032f1a17abe05e32cc757a1e357613c",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "cc06def394d8bd7b9b359ef925cdf128273a853326d269146106f10f4459d46e"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep03.im3",
@@ -36,7 +38,8 @@
       ],
       "template": "bitmap-a084262a3b6c255a.im3",
       "sha256": "5d5b69241663e616f645505d47c8d8347d444129b8b9a86db27e933e1301b4d7",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "e95968181a58639705e69ee7962fcd38ca28c8e756ddfc8b27dde9d4c85f8307"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep04.im3",
@@ -48,7 +51,8 @@
       ],
       "template": "bitmap-0ec7e9da9ba8b368.im3",
       "sha256": "5271bcedd68e45eeec38155229d0c73faa0172b374efc1b125a57d8b51dec73a",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "c064d3bbf2fd2b2b8a8d8c317d250aca32fbc23ad4ee4c01e1aa86771871a32e"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep05.im3",
@@ -60,7 +64,8 @@
       ],
       "template": "bitmap-9eed0edb9f61a89e.im3",
       "sha256": "38721c80e841f33cbebbca1f75bb7f20aa35693e9d76c2cf160f713faaf349eb",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "4e58ccc32abd268fb8d402dc1ff539895859aa0f137ae0d4955c6ba48de35681"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep06.im3",
@@ -72,7 +77,8 @@
       ],
       "template": "bitmap-7395e20a6e785ebd.im3",
       "sha256": "03209a05aadb07c89748f8fb5e2e04cdc32d767b862d509841b51f4aa481f314",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "141923e9fda365ba968e47b07083fbd51986c21be6c65f41ff4614cdb54dd4ba"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep07.im3",
@@ -84,7 +90,8 @@
       ],
       "template": "bitmap-50b05c6616c6959f.im3",
       "sha256": "6a8a0b23daa009994b020931661d9f1a2a6d2bd6fae12e06b1fe3e45bb3184bb",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "7cb2846e7d3e2b6758d378883c0eae82640ef180e77a029e37fcc7c4923353c4"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep08.im3",
@@ -96,7 +103,8 @@
       ],
       "template": "bitmap-b80dc13d7748aadd.im3",
       "sha256": "426124f107e2588bb97b09e9e9358d6824af8217e69164f45aa7e424b6190416",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "36987a96fc4c141191bdf3d1c3adcf5138573c4c39bb0771cae9c49aeb82c535"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep09.im3",
@@ -108,7 +116,8 @@
       ],
       "template": "bitmap-4345b0fd6a05a956.im3",
       "sha256": "472144669e50b2284ab31aca7df7558cbdc6dbaa6ad5f521393d76c1f5a51c56",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "9f2139753c6839d116cf671cc9911d8d926297cc15fc87a3c7852c989a714e4d"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep10.im3",
@@ -120,7 +129,8 @@
       ],
       "template": "bitmap-aaf0c9382315289b.im3",
       "sha256": "53127675bc78c4684739ceeafff058ab5af16f035ca4a35e57ae16e19c3bf4a7",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "108744bb7cc72d39f138372109275c8470f45f1b4875e403b5898d73e3b35bf5"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep11.im3",
@@ -132,7 +142,8 @@
       ],
       "template": "bitmap-0e05fce682f2420d.im3",
       "sha256": "5ffa2154aae38a515c3a52479c37497145258574af07d6c4402b410aec29ef2f",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "dedf80848f35e18475901105ff0c49a6d7abab050e350f7fdb5dae396567ddb3"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep12.im3",
@@ -144,7 +155,8 @@
       ],
       "template": "bitmap-a06e820a441ae3e0.im3",
       "sha256": "a52bfd56ca9dcc345797e22dced5758329ea7b930b363c07a7d0108d5e9b42cf",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "1bbb3776f634f84e08bcf36ad462ef4aa2cc72461054452e913ee982924e1b96"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep13.im3",
@@ -156,7 +168,8 @@
       ],
       "template": "bitmap-5db3e03b87e1bb52.im3",
       "sha256": "c9560affc6696f9a20db5a60e8f13358497fdbb9cc60ad9faa985cf1889a7acc",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "d533de8860e1db29c35f53ac0999f54f7058351df372cdc4f4dc0e82f8ce65e1"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep14.im3",
@@ -168,7 +181,8 @@
       ],
       "template": "bitmap-f60b55ff22a82a92.im3",
       "sha256": "efa514494cbbba1e333bbdbd7761c860ab5bab78a17d9aca3c41c3ea223980f2",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "4984c63883407010cfc17b076e87323a57d3acf7dd0619805500812982ac7cf9"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep15.im3",
@@ -180,7 +194,8 @@
       ],
       "template": "bitmap-00efdc5b747df809.im3",
       "sha256": "f4e35956db6828c2c31f2e1cfba3ed4ce5b7d863486546a93a6e23fc3e0bfd46",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "74706f8fa2fcba7f0b709121a42f296362c1569ae184f1774eb106155cbe0d9a"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/dg_intro_hd0_ep16.im3",
@@ -192,7 +207,8 @@
       ],
       "template": "bitmap-db0e96a46b93452d.im3",
       "sha256": "8dbe0e8521650dde1212b2ca4b5f667cdb1daf732f93cfd4a9a50aebed5fa2e5",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "a7f4a872cfd7f91f47faad3c66d279216e69fcf3ac041cb436cde12cbd48bbde"
     },
     {
       "path": "client/images/login_images/intro_vill_lumineos.im3",
@@ -204,7 +220,8 @@
       ],
       "template": "bitmap-c0894f569e22a392.im3",
       "sha256": "e0be3b3e7d542be2ede5bab23951f3db164f0fd944abb288159ed6cc477792bb",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "e0be3b3e7d542be2ede5bab23951f3db164f0fd944abb288159ed6cc477792bb"
     },
     {
       "path": "client/images/interface_images/shootingsky_inter_image/ssky_pvp_intro_base_00.im3",
@@ -216,8 +233,114 @@
       ],
       "template": "bitmap-09b0bc8603adb75d.im3",
       "sha256": "dae014c588f0af940257a991d5f4cf62dc302eb2557d8c389ce82e10bd51c81f",
-      "restoration": "built-in image editing; bounded composite"
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "7494e0290253a350e10d7c13767d6caaf0966a620348b7767923f7cae35cfc30"
+    },
+    {
+      "path": "client/effs/interface/qz_minimap_bg.im3",
+      "box": [
+        18,
+        400,
+        176,
+        184
+      ],
+      "template": "bitmap-0936d9d13bebddba.im3",
+      "sha256": "7b04bb9fc397cb1d7b2d4ac012158c46fd7afc74f017bd0381b2102f9a54a24e",
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "a1e57bcb1fb79cad95b88a097b417602a02517b5bd4b2e0744261c238914f914"
+    },
+    {
+      "path": "client/effs/interface/arena_intro_bg.im3",
+      "box": [
+        320,
+        212,
+        157,
+        227
+      ],
+      "template": "bitmap-6d752e857ea88a98.im3",
+      "sha256": "201e96a112f2440a00718d7c5581c7648816251a3521644d24cb526c92a6c243",
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "201e96a112f2440a00718d7c5581c7648816251a3521644d24cb526c92a6c243"
+    },
+    {
+      "path": "client/images/login_images/intro_vill_godenglory.im3",
+      "box": [
+        300,
+        422,
+        180,
+        174
+      ],
+      "template": "bitmap-c134e3afa22cb0f5.im3",
+      "sha256": "fa853018fefa472679b0e5c1eb3531eb28c8de088320a4ab64a33815ce44774f",
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "650615db6b686b228352e1ec15a2d11259a745d8efb5026116c9e9862f276884"
+    },
+    {
+      "path": "client/images/login_images/intro_vill_irai.im3",
+      "box": [
+        300,
+        422,
+        180,
+        174
+      ],
+      "template": "bitmap-98b71cd8f733ba78.im3",
+      "sha256": "3f65e9d8d68e6788afa83267bc99e03f870308e8029424a646a7c7f26748d4a4",
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "3f65e9d8d68e6788afa83267bc99e03f870308e8029424a646a7c7f26748d4a4"
+    },
+    {
+      "path": "client/images/login_images/intro_vill_platanus.im3",
+      "box": [
+        300,
+        422,
+        180,
+        174
+      ],
+      "template": "bitmap-fc7cf7d2e382ede4.im3",
+      "sha256": "5f5551551ee4f395a901f5e7ad8c41cf2425224c17b67fb5740c319733c866d3",
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "c0d152e12a9eb1dba18d5bb5d47b04902420fdb693a060f2395e0eda0f14b302"
+    },
+    {
+      "path": "client/images/login_images/intro_vill_shyaien.im3",
+      "box": [
+        300,
+        422,
+        180,
+        174
+      ],
+      "template": "bitmap-686e88c73fbdfd11.im3",
+      "sha256": "9f1af5f453287cae6d44f1586ed0efdfa97915de77c48c4259d0969e297514c5",
+      "restoration": "built-in image editing; bounded composite",
+      "template_sha256": "9f1af5f453287cae6d44f1586ed0efdfa97915de77c48c4259d0969e297514c5"
     }
   ],
-  "logos_removed": true
+  "logos_removed": true,
+  "removed_text_keys": [
+    "sprite.intro_vill_godenglory.2",
+    "sprite.intro_vill_irai.3",
+    "sprite.intro_vill_platanus.3",
+    "sprite.intro_vill_shyaien.2"
+  ],
+  "static_assets": [
+    {
+      "path": "client/data/ui/background.bmp",
+      "boxes": [
+        [
+          138,
+          0,
+          201,
+          188
+        ],
+        [
+          524,
+          552,
+          248,
+          46
+        ]
+      ],
+      "sha256": "1c676d716aa3b3532f26d05dcaf5efe034b1ee8326326e91fcd55445f8e5f4f2",
+      "restoration": "built-in image editing; bounded composite"
+    }
+  ]
 }

@@ -2,8 +2,9 @@
 
 The game keeps its localized text name, but displays no replacement wordmark.
 The original publisher/game logos and the rejected green badge were removed from
-18 chapter and loading backgrounds. [branding.json](branding.json) lists every
-installed image, template, edited rectangle, and generated-output checksum.
+24 chapter, loading, arena and world-map backgrounds. [branding.json](branding.json)
+lists every reviewed image, template, edited rectangle, and checksums for both the
+installed output and its source template.
 
 Background repairs use the built-in image-editing tool. Only the recorded logo
 rectangle is composited back into each IM3 template, with a narrow blended edge.
@@ -13,8 +14,25 @@ the separately managed interface text.
 
 The final assets are stored in `localization/templates/` and installed at the
 `client/` paths listed in `branding.json`. No generated-image cache path is needed
-to build or run the game. `verify_branding.py` checks installed checksums, rejects
-wordmark text bindings, and verifies the native window title.
+to build or run the game. `verify_branding.py` checks installed and template
+checksums, rejects wordmark and removed publisher text bindings, and verifies
+the native window title.
+
+The additional six backgrounds are `qz_minimap_bg`, `arena_intro_bg`, and the
+`intro_vill_godenglory`, `intro_vill_irai`, `intro_vill_platanus`, and
+`intro_vill_shyaien` loading screens. Their original game logos, decorative bars
+and stars, reflections, publisher marks, and advertising text were removed.
+The four obsolete publisher text entries and bindings were also deleted so the
+locale compiler cannot draw them back. Village composites use a narrower upper
+region for the game logo and a wider footer region for publisher marks, within
+the recorded bounding rectangle. Map labels, loading text, and frame geometry
+are preserved.
+
+The legacy login bitmap `client/data/ui/background.bmp` also had an original
+game badge and publisher logos. These were removed within the rectangles in
+`branding.json`'s `static_assets` list. This bitmap is used directly by the legacy
+XML layout and has no locale template; its reviewed checksum is checked too.
+Its remaining UI pixels and magenta transparency key outside the edit are unchanged.
 
 ## Editing prompts
 

@@ -8,7 +8,8 @@ from pathlib import Path
 
 def verify(root):
     client = root / 'client'
-    required = ['game.exe', 'Start-Game.exe', 'images/interface.pack',
+    required = ['game.exe', 'Start-Game.exe', 'ddraw.dll', 'nanaimo-renderer.dll', 'D3DImm.dll',
+                'dgVoodoo-NOTICE.txt', 'images/interface.pack',
                 'server/launchsettings.json', 'server/config/profile.ini',
                 'server/launcher/Nanaimo.Launcher.exe',
                 'server/server-merged/bin/Nanaimo.Server.exe',
@@ -16,12 +17,18 @@ def verify(root):
     for name in required:
         if not (client / name).is_file():
             raise ValueError('Missing portable input: ' + name)
+    for name in ['ddraw.dll', 'nanaimo-renderer.dll', 'D3DImm.dll']:
+        data = (client / name).read_bytes()
+        offset = struct.unpack_from('<I', data, 60)[0]
+        if struct.unpack_from('<H', data, offset + 4)[0] != 0x014c:
+            raise ValueError('The original game requires x86 display libraries: ' + name)
     profile = (client / 'server/config/profile.ini').read_text(encoding='utf-8-sig')
     values = dict(line.split('=', 1) for line in profile.splitlines() if '=' in line and not line.startswith('#'))
     if values['name_hex'] or values['coin'] != '0' or values['nana_point'] != '0' or values['skip_tutorial'] != '0':
         raise ValueError('Non-neutral compatibility profile')
     for forbidden in ['server/server-merged/data', 'server/save-backups', 'server/server-merged/save-backups',
-                      'server/launcher/local-account.json', 'server/launcher.log']:
+                      'server/launcher/local-account.json', 'server/launcher/display-settings.json',
+                      'StateOption/gamestartoption.ini', 'dxwrapper.ini', 'display.ini', 'dgVoodoo.conf', 'server/launcher.log']:
         if (client / forbidden).exists():
             raise ValueError('Private runtime state present: ' + forbidden)
     for name in ['server/launcher/Nanaimo.Launcher.exe', 'server/server-merged/bin/Nanaimo.Server.exe']:

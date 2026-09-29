@@ -68,10 +68,51 @@ internal static class Checks
         login.Submit();
         Check(requested && login.Arguments.SequenceEqual(new[] { "--account", "Test Account" }),
             "Embedded login forwards only the trimmed account");
+        var selector = controls.OfType<ComboBox>().Single(control => control.AccessibleName == "視窗解像度");
+        Check(selector.Items.Count >= 8 && selector.SelectedIndex == 0,
+            "Login offers common resolutions and defaults to 800 by 600");
+        selector.SelectedIndex = Array.IndexOf(GameDisplaySettings.Presets, new GameResolution(1920, 1080));
+        login.Submit();
+        var fullScreen = controls.OfType<CheckBox>().Single(control => control.AccessibleName == "全螢幕");
+        fullScreen.Checked = true;
+        login.Submit();
+        Check(GameDisplaySettings.Load(root) == new GameDisplayMode(1920, 1080, true) &&
+            GameDisplaySettings.GameOptions(GameDisplaySettings.Load(root)).Contains("ScreenWidth=800\r\nScreenHeight=600\r\n") &&
+            GameDisplaySettings.WrapperOptions(GameDisplaySettings.Load(root)).Contains("Fullscreen=1\r\n") &&
+            !selector.Enabled,
+            "Fullscreen uses the native game surface and the display's full screen");
+        Check(GameDisplaySettings.WrapperOptions(new GameDisplayMode(1280, 720, false))
+            .Contains("Width=1280\r\nHeight=720\r\n") &&
+            GameDisplaySettings.WrapperOptions(new GameDisplayMode(1280, 720, false)).Contains("Fullscreen=0\r\n"),
+            "Windowed mode scales the native game surface to the selected preset");
+        Check(GameDisplaySettings.RendererOptions(8).Contains("Resolution = unforced\r\n"),
+            "Renderer preserves native GDI text coordinates before the final frame is scaled");
+        Check(GameGraphicsQuality.SelectMaxSamples((format, count) => count <= 16) == 16 &&
+            GameGraphicsQuality.SelectMaxSamples((format, count) => count <= 8) == 8 &&
+            GameGraphicsQuality.SelectMaxSamples((format, count) => count <= 4) == 4 &&
+            GameGraphicsQuality.SelectMaxSamples((format, count) => count <= 2) == 2 &&
+            GameGraphicsQuality.SelectMaxSamples((format, count) => false) == 0,
+            "Automatic AA selects the highest supported renderer sample count or disables unsupported MSAA");
+        Check(GameGraphicsQuality.SelectMaxSamples((format, count) => format != 45 || count <= 2) == 2,
+            "Automatic AA requires compatible color and depth formats");
+        Check(GameDisplaySettings.RendererOptions(8).Contains("Antialiasing = 8x\r\n") &&
+            GameDisplaySettings.RendererOptions(8).Contains("Bilinear2DOperations = true\r\n") &&
+            GameDisplaySettings.RendererOptions(0).Contains("Antialiasing = off\r\n"),
+            "AA and final-frame smoothing are generated independently");
+        Console.WriteLine($"HARDWARE_MSAA_SAMPLES={GameGraphicsQuality.DetectMaxSamples()}");
         using var reopened = new AccountLoginControl(root);
-        Check(reopened.AccountName == "Test Account", "Standalone and embedded login share saved account");
+        Check(reopened.AccountName == "Test Account" &&
+            reopened.Controls.OfType<TableLayoutPanel>().SelectMany(control => control.Controls.OfType<ComboBox>())
+                .Single().SelectedIndex == selector.SelectedIndex &&
+            Descendants(reopened).OfType<CheckBox>().Single().Checked,
+            "Standalone and embedded login share saved account and display mode");
+        File.WriteAllText(Path.Combine(root, "launcher", "display-settings.json"), "{\"Width\":123,\"Height\":456}");
+        Check(GameDisplaySettings.Load(root) == GameDisplaySettings.Default,
+            "Unsupported saved resolution falls back to 800 by 600");
+        Check(GameDisplaySettings.GameOptions(GameDisplaySettings.Default).Contains("FullScreen=0\r\n"),
+            "Default game mode starts windowed");
         using var form = new Form { ClientSize = new Size(740, 420) };
-        using var rendered = new AccountLoginControl(root) { Size = new Size(480, 160), Location = new Point(4, 4) };
+        using var rendered = new AccountLoginControl(root) { Size = new Size(480, 260), Location = new Point(4, 4) };
         form.Controls.Add(rendered);
         form.Show();
         Application.DoEvents();

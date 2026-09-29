@@ -14,7 +14,8 @@ $relativePaths = @(
     '.work', 'artifacts', 'game-unpacked.exe', 'original-installers',
     'client/server/server-merged/data', 'client/server/save-backups', 'client/server/server-merged/save-backups',
     'client/server/launcher/local-account.json', 'client/server/launcher-win7/local-account.json',
-    'client/StateOption/gamestartoption.ini', 'server/tools/checks',
+    'client/server/launcher/display-settings.json',
+    'client/StateOption/gamestartoption.ini', 'client/dxwrapper.ini', 'client/display.ini', 'client/dgVoodoo.conf', 'server/tools/checks',
     'server/tools/launcher-check-output', 'server/src/build',
     'launcher/native-entry/entry.o', 'launcher/native-entry/entry.res',
     'server/tools/tcc-0.9.27-win32-bin.zip'
@@ -42,7 +43,8 @@ foreach ($candidate in ($targets | Sort-Object -Unique)) {
 if ($Apply) {
     $profile = Join-Path $workspace 'client/server/config/profile.ini'
     if (Test-Path -LiteralPath (Split-Path $profile -Parent)) {
-        Copy-Item -LiteralPath (Join-Path $workspace 'server/config/profile.ini') -Destination $profile -Force
+        $defaults = [IO.File]::ReadAllText((Join-Path $workspace 'server/config/profile.ini')).Replace("`r`n", "`n")
+        [IO.File]::WriteAllText($profile, $defaults, [Text.UTF8Encoding]::new($false))
     }
     Write-Output 'WORKSPACE_CLEAN_PASS'
 }

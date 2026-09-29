@@ -7,9 +7,9 @@ internal sealed class AccountLoginForm : Form
 
     internal AccountLoginForm(string root)
     {
-        Text = "Nanaimo - Account login";
+        Text = "Nanaimo－本機登入";
         Font = new Font("Segoe UI", 10);
-        ClientSize = new Size(450, 160);
+        ClientSize = new Size(450, 260);
         FormBorderStyle = FormBorderStyle.FixedDialog;
         MaximizeBox = false; MinimizeBox = false;
         StartPosition = FormStartPosition.CenterScreen;

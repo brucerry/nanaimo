@@ -17,3 +17,4 @@ foreach($variant in $variants) {
     }
 }
 & (Join-Path $PSScriptRoot 'build-native-entry.ps1')
+& (Join-Path $PSScriptRoot 'build-native-display.ps1')

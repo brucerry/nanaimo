@@ -100,6 +100,12 @@ internal static class Program
             string native = Path.Combine(Path.GetDirectoryName(server)!, "nanaimo_gameplay_bridge.exe");
             if (!File.Exists(native)) throw new FileNotFoundException("搵唔到遊戲橋接程式。", native);
             if (!File.Exists(profile)) throw new FileNotFoundException("搵唔到伺服器設定檔。", profile);
+            string clientDirectory = Path.GetDirectoryName(client)!;
+            foreach (string name in new[] { "ddraw.dll", "nanaimo-renderer.dll", "D3DImm.dll" })
+            {
+                string wrapper = Path.Combine(clientDirectory, name);
+                if (!File.Exists(wrapper)) throw new FileNotFoundException("搵唔到遊戲畫面縮放程式。", wrapper);
+            }
         }
         if (Application.MessageLoop) await Task.Run(VerifyLaunchFiles);
         else VerifyLaunchFiles();
@@ -184,10 +190,12 @@ internal static class Program
         string clientDirectory = Path.GetDirectoryName(client)!;
         string optionPath = Path.Combine(clientDirectory, "StateOption", "gamestartoption.ini");
         Directory.CreateDirectory(Path.GetDirectoryName(optionPath)!);
-        await File.WriteAllTextAsync(optionPath,
-            "[GameInfo]\r\nFullScreen=0\r\nUsePatch=0\r\nScreenWidth=800\r\nScreenHeight=600\r\n" +
-            "[ServerInfo]\r\nPort=12050\r\nServerIP=127.0.0.1\r\n" +
-            "[LoginInfo]\r\nLogin=Network Login Game\r\n[NexonPlugInfo]\r\nID=123\r\nPW=123\r\n", Encoding.ASCII);
+        GameDisplayMode display = GameDisplaySettings.Load(root);
+        await File.WriteAllTextAsync(optionPath, GameDisplaySettings.GameOptions(display), Encoding.ASCII);
+        await File.WriteAllTextAsync(Path.Combine(clientDirectory, "display.ini"),
+            GameDisplaySettings.WrapperOptions(display), Encoding.ASCII);
+        await File.WriteAllTextAsync(Path.Combine(clientDirectory, "dgVoodoo.conf"),
+            GameDisplaySettings.RendererOptions(GameGraphicsQuality.DetectMaxSamples()), Encoding.ASCII);
         var gameStart = new ProcessStartInfo(client) { WorkingDirectory = clientDirectory, UseShellExecute = false };
         foreach (string argument in new[] { "-q", ":1:1:0:3:4:-i", "5:-r", "6:7:1:127.0.0.1:" })
             gameStart.ArgumentList.Add(argument);

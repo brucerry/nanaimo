@@ -9,6 +9,8 @@
   <ItemGroup>
     <Compile Include="../../../launcher/ClientLocator.cs" Link="ClientLocator.cs" />
     <Compile Include="../../../launcher/AccountLoginControl.cs" Link="AccountLoginControl.cs" />
+    <Compile Include="../../../launcher/GameGraphicsQuality.cs" Link="GameGraphicsQuality.cs" />
+    <Compile Include="../../../launcher/GameDisplaySettings.cs" Link="GameDisplaySettings.cs" />
     <Compile Include="../../../launcher/SaveReset.cs" Link="SaveReset.cs" />
     <Compile Include="../../../launcher/ProcessPaths.cs" Link="ProcessPaths.cs" />
   </ItemGroup>

@@ -1,0 +1,20 @@
+dgVoodoo2 2.87.5, copyright Dege
+
+This game-specific distribution contains the official x86 DirectDraw renderer
+(MS/x86/DDraw.dll, renamed to nanaimo-renderer.dll) and D3DImm.dll, unmodified.
+These third-party binaries are not covered by this repository's AGPL license.
+The locally built ddraw.dll shim is separate source in launcher/native-display.
+
+dgVoodoo permits individual files to accompany a game or game mod. Standalone
+redistribution of dgVoodoo requires its complete original package. Consult the
+author's current terms and documentation:
+https://www.dege.freeweb.hu/dgVoodoo2/ReadmeGeneral/
+
+Versioned source of the distributed files:
+https://github.com/dege-diosg/dgVoodoo2/releases/download/v2.87.5/dgVoodoo2_87_5.zip
+
+Rebuild the game-specific shim with launcher/build-native-display.ps1.
+
+SHA-256 of the official, unmodified binaries:
+nanaimo-renderer.dll 612a24408a090a3c6f3886557fa18034ee742e94ad0a40ebdf854d2816176c2e
+D3DImm.dll 93c534f2d17419ea78f15551f7e0aac78b3c503733a840914fa063708a5afe8e

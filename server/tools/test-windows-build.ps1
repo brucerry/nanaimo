@@ -25,6 +25,7 @@ try {
             if ($LASTEXITCODE) { throw "Python checks failed: $suite" }
         }
     }
+    & ./launcher/test-native-display.ps1
     $machine = if ($Architecture -eq 'x86') { 0x014c } else { 0x8664 }
     foreach ($file in @("client/server/$launcherDirectory/Nanaimo.Launcher.exe", "client/server/server-merged/$serverDirectory/Nanaimo.Server.exe")) {
         $bytes = [IO.File]::ReadAllBytes((Join-Path $workspace $file))
@@ -41,8 +42,8 @@ try {
         if ($LASTEXITCODE) { throw 'Client startup checks failed.' }
     }
     $launcher = Join-Path $workspace "client/server/$launcherDirectory/Nanaimo.Launcher.exe"
-    & $launcher --verify
-    if ($LASTEXITCODE) { throw "Launcher cannot use its $Architecture $Target server." }
+    $verification = Start-Process -FilePath $launcher -ArgumentList '--verify' -Wait -PassThru -WindowStyle Hidden
+    if ($verification.ExitCode -ne 0) { throw "Launcher cannot use its $Architecture $Target server." }
     Write-Output "WINDOWS_BUILD_CHECKS_PASS target=$Target architecture=$Architecture"
 } catch {
     $message = $_.Exception.Message.Replace('%', '%25').Replace("`r", '%0D').Replace("`n", '%0A')

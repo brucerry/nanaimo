@@ -19,13 +19,27 @@ Clone the repository, then open the included portable application. No build, SDK
 
 1. Run `git clone https://github.com/brucerry/nanaimo.git` and open the cloned folder.
 2. On Windows 10 or 11 **x64**, open `client/Start-Game.exe`.
-3. Enter an account name and choose **Log in and play**.
+3. Enter an account name, choose a windowed size or fullscreen mode, then choose **Log in and play**.
 4. A new name creates a new account; the game then opens character creation.
 5. Reuse the same account name to resume. Exit the game before stopping its server.
 
 There is no automatic default account. The portable build includes its .NET runtime.
 New characters receive no preset coins, cash, or skill points and begin with the tutorial.
 Local accounts do not need passwords; this application is intended for local play.
+The launcher offers windowed presets from 800 × 600 through 3840 × 2160; choose one
+that fits your display. Fullscreen uses your display's current resolution. The original
+game renders at 800 × 600, so the included DirectDraw wrapper scales its image.
+Anti-aliasing automatically uses the highest supported MSAA level on the default GPU
+(up to 16x), with bilinear filtering for the enlarged image. MSAA smooths geometry;
+it cannot add detail to the original bitmap artwork or fonts. If hardware detection
+fails or MSAA is unavailable, smooth scaling stays enabled with MSAA off.
+Widescreen sizes stretch the original 4:3 artwork. Your choice is saved in
+`client/server/launcher/display-settings.json` and applied the next time you launch.
+Text and sprites are rendered together before the completed frame is scaled; mouse
+coordinates use the same scale. The game-specific shim is built from
+`launcher/native-display/display.c`, with [dgVoodoo2](https://github.com/dege-diosg/dgVoodoo2)
+providing DirectDraw compatibility. See `client/dgVoodoo-NOTICE.txt` for its separate
+terms and version. A DirectX 10-capable GPU is required.
 The checkout includes roughly 2 GB of game assets and runtimes. Git LFS is not required.
 
 Saves are in `client/server/server-merged/data/`. Back up that entire directory

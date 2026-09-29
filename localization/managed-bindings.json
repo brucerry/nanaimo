@@ -1,31 +1,31 @@
 [
   {
     "path": "launcher/AccountLoginControl.cs",
-    "literal": 1,
+    "literal": 4,
     "key": "AccountLoginControl.1",
     "ascii": ""
   },
   {
     "path": "launcher/AccountLoginControl.cs",
-    "literal": 7,
+    "literal": 10,
     "key": "AccountLoginControl.7",
     "ascii": ""
   },
   {
     "path": "launcher/AccountLoginControl.cs",
-    "literal": 8,
+    "literal": 12,
     "key": "AccountLoginControl.8",
     "ascii": "，。"
   },
   {
     "path": "launcher/AccountLoginControl.cs",
-    "literal": 9,
+    "literal": 13,
     "key": "AccountLoginControl.9",
     "ascii": ""
   },
   {
     "path": "launcher/AccountLoginControl.cs",
-    "literal": 10,
+    "literal": 14,
     "key": "AccountLoginControl.10",
     "ascii": ""
   },
@@ -1303,91 +1303,91 @@
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 25,
+    "literal": 29,
     "key": "Program.25",
     "ascii": "VERIFY_PASS 。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 27,
+    "literal": 31,
     "key": "Program.27",
     "ascii": "，。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 30,
+    "literal": 34,
     "key": "Program.30",
     "ascii": "。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 32,
+    "literal": 36,
     "key": "Program.32",
     "ascii": "， {existingClient.Id}。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 36,
+    "literal": 40,
     "key": "Program.36",
     "ascii": " --account 。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 37,
+    "literal": 41,
     "key": "Program.37",
     "ascii": " {port} 。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 51,
+    "literal": 55,
     "key": "Program.51",
     "ascii": "。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 52,
+    "literal": 56,
     "key": "Program.52",
     "ascii": "， server-merged/server-error.log。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 54,
+    "literal": 58,
     "key": "Program.54",
     "ascii": "。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 56,
+    "literal": 60,
     "key": "Program.56",
     "ascii": "，。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 66,
+    "literal": 69,
     "key": "Program.66",
     "ascii": "。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 67,
+    "literal": 70,
     "key": "Program.67",
     "ascii": "， {game.Id}；，。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 71,
+    "literal": 74,
     "key": "Program.71",
     "ascii": "。"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 73,
+    "literal": 76,
     "key": "Program.73",
     "ascii": "Nanaimo－"
   },
   {
     "path": "launcher/Program.cs",
-    "literal": 79,
+    "literal": 84,
     "key": "Program.79",
     "ascii": "。"
   },

@@ -56,7 +56,7 @@ internal sealed class ServerManagerForm : Form
         layout.Controls.Add(commands, 0, 2);
         var tabs = new TabControl { Dock = DockStyle.Fill };
         var loginTab = new TabPage("本機登入") { Padding = new Padding(4) };
-        login = new AccountLoginControl(root) { Size = new Size(480, 160), Location = new Point(4, 4) };
+        login = new AccountLoginControl(root) { Size = new Size(480, 260), Location = new Point(4, 4) };
         loginTab.Controls.Add(login);
         var runtime = new TabPage("診斷記錄") { Padding = new Padding(4) };
         var portTab = new TabPage("連接埠") { Padding = new Padding(4) };
